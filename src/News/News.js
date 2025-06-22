@@ -1,0 +1,120 @@
+import img1 from '../assets/img1.jpg'
+import img2 from '../assets/img2.jpg'
+import img3 from '../assets/img3.jpg'
+import { author1 } from './Author'
+
+export const News = [
+    {
+        id: "001",
+        thumbnail: img1,
+        category: "Event",
+        department: "CSE",
+        date: "2025-06-22",
+        author: author1,
+        title: {
+            en: "Tech Fest 2025 Scheduled for July 15",
+            kn: "ಟೆಕ್ ಫೆಸ್ಟ್ 2025 ಜುಲೈ 15 ರಂದು"
+        },
+        description: {
+            en: "Annual tech fest with contests and workshops is scheduled for July.",
+            kn: "ಪ್ರತಿ ವರ್ಷದ ಟೆಕ್ ಫೆಸ್ಟ್ ಜುಲೈನಲ್ಲಿ ನಡೆಯಲಿದೆ."
+        },
+        content: {
+            en: [
+                "India has witnessed a massive transformation in its economy over the past decade, driven largely by digital innovations and technological advancements. With the widespread use of smartphones and affordable internet, even rural populations now have access to banking, education, and government services at their fingertips. This digital revolution is not just about convenience, but also about inclusivity and empowerment.",
+
+                "Government initiatives like Digital India, UPI, and Aadhaar have played a key role in accelerating the shift to a digital-first nation. Businesses are increasingly adopting online platforms, enabling micro, small, and medium enterprises (MSMEs) to compete in global markets. E-commerce, fintech, and edtech sectors have flourished, creating jobs and investment opportunities across the country.",
+
+                "Despite these advancements, challenges remain. Cybersecurity, data privacy, and digital literacy are ongoing concerns that need robust policies and awareness campaigns. Ensuring equitable access to digital tools, especially for women and marginalized communities, will be crucial to maintaining inclusive growth.",
+
+                "As India continues its journey toward becoming a $5 trillion economy, its digital infrastructure and innovation capabilities will be at the heart of this evolution. The future lies in creating a balanced digital ecosystem that supports growth, equity, and sustainability for all."
+            ],
+            kn: [
+                "ಗತ ಒಂದು ದಶಕದಲ್ಲಿ ಭಾರತವು ತನ್ನ ಅರ್ಥವ್ಯವಸ್ಥೆಯಲ್ಲಿ ಭಾರೀ ಬದಲಾವಣೆಯನ್ನು ಕಂಡಿದೆ, ಇದು ಬಹುಪಾಲು ಡಿಜಿಟಲ್ ಆವಿಷ್ಕಾರಗಳು ಮತ್ತು ತಾಂತ್ರಿಕ ಪ್ರಗತಿಗಳಿಂದ ಚಾಲಿತವಾಗಿದೆ. ಸ್ಮಾರ್ಟ್‌ಫೋನ್‌ಗಳ ವ್ಯಾಪಕ ಬಳಕೆ ಮತ್ತು ಪರವಡಬಹುದಾದ ಇಂಟರ್‌ನೆಟ್‌ನೊಂದಿಗೆ, ಗ್ರಾಮೀಣ ಜನಸಂಖ್ಯೆಯೂ ಬ್ಯಾಂಕಿಂಗ್, ಶಿಕ್ಷಣ ಮತ್ತು ಸರಕಾರದ ಸೇವೆಗಳಿಗೆ ಸುಲಭವಾಗಿ ಪ್ರವೇಶ ಸಾಧಿಸಬಹುದು. ಈ ಡಿಜಿಟಲ್ ಕ್ರಾಂತಿ ಸುಲಭತೆಗಾಗಿ ಮಾತ್ರವಲ್ಲದೆ, ಸಮಾವೇಶ ಮತ್ತು ಶಕ್ತಿಕರಣದತ್ತವೂ ಸಾಗುತ್ತಿದೆ.",
+
+                "ಡಿಜಿಟಲ್ ಇಂಡಿಯಾ, ಯುಪಿಐ, ಆಧಾರ್ ಮುಂತಾದ ಸರಕಾರದ ಯೋಜನೆಗಳು ಡಿಜಿಟಲ್ ದೇಶದತ್ತ ತಿರುಗುವಿಕೆಯನ್ನು ವೇಗಗೊಳಿಸುವಲ್ಲಿ ಮಹತ್ವದ ಪಾತ್ರವಹಿಸಿವೆ. ವ್ಯಾಪಾರಗಳು ಆನ್‌ಲೈನ್ ತಂತ್ರಜ್ಞಾನಗಳನ್ನು ಸ್ವೀಕರಿಸುತ್ತಿದ್ದು, ಸಣ್ಣ ಮತ್ತು ಮಧ್ಯಮ ಉದ್ದಿಮೆಗಳಿಗೆ ಜಾಗತಿಕ ಮಾರುಕಟ್ಟೆಗಳಲ್ಲಿ ಸ್ಪರ್ಧಿಸಲು ಅವಕಾಶ ಮಾಡಿಕೊಡುತ್ತಿವೆ. ಈ-ಕಾಮರ್ಸ್, ಫಿನ್‌ಟೆಕ್, ಎಡ್‌ಟೆಕ್ ಕ್ಷೇತ್ರಗಳು ವ್ಯಾಪಕವಾಗಿ ಬೆಳೆಯುತ್ತಿವೆ, ಉದ್ಯೋಗ ಮತ್ತು ಹೂಡಿಕೆ ಅವಕಾಶಗಳನ್ನು ಸೃಷ್ಟಿಸುತ್ತಿವೆ.",
+
+                "ಈ ಪ್ರಗತಿಗಳ ನಡುವೆಯೂ, ಸೈಬರ್ ಸುರಕ್ಷತೆ, ಡೇಟಾ ಗೌಪ್ಯತೆ ಮತ್ತು ಡಿಜಿಟಲ್ ಅರಿವು ಮುಂತಾದ ಸವಾಲುಗಳು ಮುಂದುವರಿಯುತ್ತಿವೆ. ಮಹಿಳೆಯರು ಮತ್ತು ಅಲ್ಪಸಂಖ್ಯಾತ ಸಮುದಾಯಗಳು ಸೇರಿದಂತೆ ಎಲ್ಲರಿಗೂ ಸಮಾನ ಡಿಜಿಟಲ್ ಪ್ರವೇಶವನ್ನು ಖಚಿತಪಡಿಸುವುದು ಸಮಾವೇಶಿತ ಅಭಿವೃದ್ಧಿಗೆ ಮುಖ್ಯವಾಗಿದೆ.",
+
+                "ಭಾರತವು $5 ಟ್ರಿಲಿಯನ್ ಅರ್ಥವ್ಯವಸ್ಥೆಯ ಗುರಿಯತ್ತ ಸಾಗುತ್ತಿರುವಾಗ, ಅದರ ಡಿಜಿಟಲ್ ಮೂಲಸೌಕರ್ಯ ಮತ್ತು ಆವಿಷ್ಕಾರ ಸಾಮರ್ಥ್ಯವು ಈ ಬದಲಾವಣೆಯ ಕೇಂದ್ರಬಿಂದುವಾಗಿರುತ್ತದೆ. ಬೆಳವಣಿಗೆ, ಸಮಾನತೆ ಮತ್ತು ಸತತತೆಯೊಂದಿಗೆ ಬೆಳೆದ ಸಮತೋಲನ ಡಿಜಿಟಲ್ ಪರಿಸರ ವ್ಯವಸ್ಥೆಯನ್ನು ನಿರ್ಮಿಸುವುದೇ ಭವಿಷ್ಯವಾಗಿದೆ."
+            ]
+        },
+        aboutImg: {
+            en: "Annual tech fest with contests and workshops is scheduled for July.",
+            kn: "ಪ್ರತಿ ವರ್ಷದ ಟೆಕ್ ಫೆಸ್ಟ್ ಜುಲೈನಲ್ಲಿ ನಡೆಯಲಿದೆ."
+        }
+    },
+    {
+        id: "002",
+        thumbnail: img2,
+        category: "Notice",
+        department: "All",
+        date: "2025-06-20",
+        author: author1,
+        title: {
+            en: "Mid-Sem Exams Postponed to August",
+            kn: "ಮಧ್ಯ ಸೆಮ್ ಪರೀಕ್ಷೆಗಳು ಆಗಸ್ಟ್‌ಗೆ ಮುಂದೂಡಲ್ಪಟ್ಟಿವೆ"
+        },
+        description: {
+            en: "Exams delayed due to weather; new schedule coming soon.",
+            kn: "ಹವಾಮಾನ ಕಾರಣದಿಂದ ಪರೀಕ್ಷೆ ಮುಂದೂಡಲ್ಪಟ್ಟಿದೆ."
+        },
+        content: {
+            en: [
+                "India has witnessed a massive transformation in its economy over the past decade, driven largely by digital innovations and technological advancements. With the widespread use of smartphones and affordable internet, even rural populations now have access to banking, education, and government services at their fingertips. This digital revolution is not just about convenience, but also about inclusivity and empowerment.",
+
+                "Government initiatives like Digital India, UPI, and Aadhaar have played a key role in accelerating the shift to a digital-first nation. Businesses are increasingly adopting online platforms, enabling micro, small, and medium enterprises (MSMEs) to compete in global markets. E-commerce, fintech, and edtech sectors have flourished, creating jobs and investment opportunities across the country.",
+
+                "Despite these advancements, challenges remain. Cybersecurity, data privacy, and digital literacy are ongoing concerns that need robust policies and awareness campaigns. Ensuring equitable access to digital tools, especially for women and marginalized communities, will be crucial to maintaining inclusive growth.",
+
+                "As India continues its journey toward becoming a $5 trillion economy, its digital infrastructure and innovation capabilities will be at the heart of this evolution. The future lies in creating a balanced digital ecosystem that supports growth, equity, and sustainability for all."
+            ],
+            kn: [
+                "ಗತ ಒಂದು ದಶಕದಲ್ಲಿ ಭಾರತವು ತನ್ನ ಅರ್ಥವ್ಯವಸ್ಥೆಯಲ್ಲಿ ಭಾರೀ ಬದಲಾವಣೆಯನ್ನು ಕಂಡಿದೆ, ಇದು ಬಹುಪಾಲು ಡಿಜಿಟಲ್ ಆವಿಷ್ಕಾರಗಳು ಮತ್ತು ತಾಂತ್ರಿಕ ಪ್ರಗತಿಗಳಿಂದ ಚಾಲಿತವಾಗಿದೆ. ಸ್ಮಾರ್ಟ್‌ಫೋನ್‌ಗಳ ವ್ಯಾಪಕ ಬಳಕೆ ಮತ್ತು ಪರವಡಬಹುದಾದ ಇಂಟರ್‌ನೆಟ್‌ನೊಂದಿಗೆ, ಗ್ರಾಮೀಣ ಜನಸಂಖ್ಯೆಯೂ ಬ್ಯಾಂಕಿಂಗ್, ಶಿಕ್ಷಣ ಮತ್ತು ಸರಕಾರದ ಸೇವೆಗಳಿಗೆ ಸುಲಭವಾಗಿ ಪ್ರವೇಶ ಸಾಧಿಸಬಹುದು. ಈ ಡಿಜಿಟಲ್ ಕ್ರಾಂತಿ ಸುಲಭತೆಗಾಗಿ ಮಾತ್ರವಲ್ಲದೆ, ಸಮಾವೇಶ ಮತ್ತು ಶಕ್ತಿಕರಣದತ್ತವೂ ಸಾಗುತ್ತಿದೆ.",
+
+                "ಡಿಜಿಟಲ್ ಇಂಡಿಯಾ, ಯುಪಿಐ, ಆಧಾರ್ ಮುಂತಾದ ಸರಕಾರದ ಯೋಜನೆಗಳು ಡಿಜಿಟಲ್ ದೇಶದತ್ತ ತಿರುಗುವಿಕೆಯನ್ನು ವೇಗಗೊಳಿಸುವಲ್ಲಿ ಮಹತ್ವದ ಪಾತ್ರವಹಿಸಿವೆ. ವ್ಯಾಪಾರಗಳು ಆನ್‌ಲೈನ್ ತಂತ್ರಜ್ಞಾನಗಳನ್ನು ಸ್ವೀಕರಿಸುತ್ತಿದ್ದು, ಸಣ್ಣ ಮತ್ತು ಮಧ್ಯಮ ಉದ್ದಿಮೆಗಳಿಗೆ ಜಾಗತಿಕ ಮಾರುಕಟ್ಟೆಗಳಲ್ಲಿ ಸ್ಪರ್ಧಿಸಲು ಅವಕಾಶ ಮಾಡಿಕೊಡುತ್ತಿವೆ. ಈ-ಕಾಮರ್ಸ್, ಫಿನ್‌ಟೆಕ್, ಎಡ್‌ಟೆಕ್ ಕ್ಷೇತ್ರಗಳು ವ್ಯಾಪಕವಾಗಿ ಬೆಳೆಯುತ್ತಿವೆ, ಉದ್ಯೋಗ ಮತ್ತು ಹೂಡಿಕೆ ಅವಕಾಶಗಳನ್ನು ಸೃಷ್ಟಿಸುತ್ತಿವೆ.",
+
+                "ಈ ಪ್ರಗತಿಗಳ ನಡುವೆಯೂ, ಸೈಬರ್ ಸುರಕ್ಷತೆ, ಡೇಟಾ ಗೌಪ್ಯತೆ ಮತ್ತು ಡಿಜಿಟಲ್ ಅರಿವು ಮುಂತಾದ ಸವಾಲುಗಳು ಮುಂದುವರಿಯುತ್ತಿವೆ. ಮಹಿಳೆಯರು ಮತ್ತು ಅಲ್ಪಸಂಖ್ಯಾತ ಸಮುದಾಯಗಳು ಸೇರಿದಂತೆ ಎಲ್ಲರಿಗೂ ಸಮಾನ ಡಿಜಿಟಲ್ ಪ್ರವೇಶವನ್ನು ಖಚಿತಪಡಿಸುವುದು ಸಮಾವೇಶಿತ ಅಭಿವೃದ್ಧಿಗೆ ಮುಖ್ಯವಾಗಿದೆ.",
+
+                "ಭಾರತವು $5 ಟ್ರಿಲಿಯನ್ ಅರ್ಥವ್ಯವಸ್ಥೆಯ ಗುರಿಯತ್ತ ಸಾಗುತ್ತಿರುವಾಗ, ಅದರ ಡಿಜಿಟಲ್ ಮೂಲಸೌಕರ್ಯ ಮತ್ತು ಆವಿಷ್ಕಾರ ಸಾಮರ್ಥ್ಯವು ಈ ಬದಲಾವಣೆಯ ಕೇಂದ್ರಬಿಂದುವಾಗಿರುತ್ತದೆ. ಬೆಳವಣಿಗೆ, ಸಮಾನತೆ ಮತ್ತು ಸತತತೆಯೊಂದಿಗೆ ಬೆಳೆದ ಸಮತೋಲನ ಡಿಜಿಟಲ್ ಪರಿಸರ ವ್ಯವಸ್ಥೆಯನ್ನು ನಿರ್ಮಿಸುವುದೇ ಭವಿಷ್ಯವಾಗಿದೆ."
+            ]
+        },
+    },
+    {
+        id: "003",
+        thumbnail: img3,
+        category: "Placement",
+        department: "ECE",
+        date: "2025-06-18",
+        author: author1,
+        title: {
+            en: "Infosys to Visit Campus for Recruitment",
+            kn: "ಇನ್ಫೋಸಿಸ್ ನೇಮಕಾತಿಗಾಗಿ ಕಾಲೇಜಿಗೆ ಭೇಟಿ ನೀಡಲಿದೆ"
+        },
+        description: {
+            en: "Final-year students eligible for Infosys drive in August.",
+            kn: "ಅಂತಿಮ ವರ್ಷದ ವಿದ್ಯಾರ್ಥಿಗಳು ಆಗಸ್ಟ್‌ನ ನೇಮಕಾತಿಗೆ ಅರ್ಹರಾಗಿದ್ದಾರೆ."
+        },
+        content: {
+            en: [
+                "India has witnessed a massive transformation in its economy over the past decade, driven largely by digital innovations and technological advancements. With the widespread use of smartphones and affordable internet, even rural populations now have access to banking, education, and government services at their fingertips. This digital revolution is not just about convenience, but also about inclusivity and empowerment.",
+
+                "Government initiatives like Digital India, UPI, and Aadhaar have played a key role in accelerating the shift to a digital-first nation. Businesses are increasingly adopting online platforms, enabling micro, small, and medium enterprises (MSMEs) to compete in global markets. E-commerce, fintech, and edtech sectors have flourished, creating jobs and investment opportunities across the country.",
+
+                "Despite these advancements, challenges remain. Cybersecurity, data privacy, and digital literacy are ongoing concerns that need robust policies and awareness campaigns. Ensuring equitable access to digital tools, especially for women and marginalized communities, will be crucial to maintaining inclusive growth.",
+
+                "As India continues its journey toward becoming a $5 trillion economy, its digital infrastructure and innovation capabilities will be at the heart of this evolution. The future lies in creating a balanced digital ecosystem that supports growth, equity, and sustainability for all."
+            ],
+            kn: [
+                "ಗತ ಒಂದು ದಶಕದಲ್ಲಿ ಭಾರತವು ತನ್ನ ಅರ್ಥವ್ಯವಸ್ಥೆಯಲ್ಲಿ ಭಾರೀ ಬದಲಾವಣೆಯನ್ನು ಕಂಡಿದೆ, ಇದು ಬಹುಪಾಲು ಡಿಜಿಟಲ್ ಆವಿಷ್ಕಾರಗಳು ಮತ್ತು ತಾಂತ್ರಿಕ ಪ್ರಗತಿಗಳಿಂದ ಚಾಲಿತವಾಗಿದೆ. ಸ್ಮಾರ್ಟ್‌ಫೋನ್‌ಗಳ ವ್ಯಾಪಕ ಬಳಕೆ ಮತ್ತು ಪರವಡಬಹುದಾದ ಇಂಟರ್‌ನೆಟ್‌ನೊಂದಿಗೆ, ಗ್ರಾಮೀಣ ಜನಸಂಖ್ಯೆಯೂ ಬ್ಯಾಂಕಿಂಗ್, ಶಿಕ್ಷಣ ಮತ್ತು ಸರಕಾರದ ಸೇವೆಗಳಿಗೆ ಸುಲಭವಾಗಿ ಪ್ರವೇಶ ಸಾಧಿಸಬಹುದು. ಈ ಡಿಜಿಟಲ್ ಕ್ರಾಂತಿ ಸುಲಭತೆಗಾಗಿ ಮಾತ್ರವಲ್ಲದೆ, ಸಮಾವೇಶ ಮತ್ತು ಶಕ್ತಿಕರಣದತ್ತವೂ ಸಾಗುತ್ತಿದೆ.",
+
+                "ಡಿಜಿಟಲ್ ಇಂಡಿಯಾ, ಯುಪಿಐ, ಆಧಾರ್ ಮುಂತಾದ ಸರಕಾರದ ಯೋಜನೆಗಳು ಡಿಜಿಟಲ್ ದೇಶದತ್ತ ತಿರುಗುವಿಕೆಯನ್ನು ವೇಗಗೊಳಿಸುವಲ್ಲಿ ಮಹತ್ವದ ಪಾತ್ರವಹಿಸಿವೆ. ವ್ಯಾಪಾರಗಳು ಆನ್‌ಲೈನ್ ತಂತ್ರಜ್ಞಾನಗಳನ್ನು ಸ್ವೀಕರಿಸುತ್ತಿದ್ದು, ಸಣ್ಣ ಮತ್ತು ಮಧ್ಯಮ ಉದ್ದಿಮೆಗಳಿಗೆ ಜಾಗತಿಕ ಮಾರುಕಟ್ಟೆಗಳಲ್ಲಿ ಸ್ಪರ್ಧಿಸಲು ಅವಕಾಶ ಮಾಡಿಕೊಡುತ್ತಿವೆ. ಈ-ಕಾಮರ್ಸ್, ಫಿನ್‌ಟೆಕ್, ಎಡ್‌ಟೆಕ್ ಕ್ಷೇತ್ರಗಳು ವ್ಯಾಪಕವಾಗಿ ಬೆಳೆಯುತ್ತಿವೆ, ಉದ್ಯೋಗ ಮತ್ತು ಹೂಡಿಕೆ ಅವಕಾಶಗಳನ್ನು ಸೃಷ್ಟಿಸುತ್ತಿವೆ.",
+
+                "ಈ ಪ್ರಗತಿಗಳ ನಡುವೆಯೂ, ಸೈಬರ್ ಸುರಕ್ಷತೆ, ಡೇಟಾ ಗೌಪ್ಯತೆ ಮತ್ತು ಡಿಜಿಟಲ್ ಅರಿವು ಮುಂತಾದ ಸವಾಲುಗಳು ಮುಂದುವರಿಯುತ್ತಿವೆ. ಮಹಿಳೆಯರು ಮತ್ತು ಅಲ್ಪಸಂಖ್ಯಾತ ಸಮುದಾಯಗಳು ಸೇರಿದಂತೆ ಎಲ್ಲರಿಗೂ ಸಮಾನ ಡಿಜಿಟಲ್ ಪ್ರವೇಶವನ್ನು ಖಚಿತಪಡಿಸುವುದು ಸಮಾವೇಶಿತ ಅಭಿವೃದ್ಧಿಗೆ ಮುಖ್ಯವಾಗಿದೆ.",
+
+                "ಭಾರತವು $5 ಟ್ರಿಲಿಯನ್ ಅರ್ಥವ್ಯವಸ್ಥೆಯ ಗುರಿಯತ್ತ ಸಾಗುತ್ತಿರುವಾಗ, ಅದರ ಡಿಜಿಟಲ್ ಮೂಲಸೌಕರ್ಯ ಮತ್ತು ಆವಿಷ್ಕಾರ ಸಾಮರ್ಥ್ಯವು ಈ ಬದಲಾವಣೆಯ ಕೇಂದ್ರಬಿಂದುವಾಗಿರುತ್ತದೆ. ಬೆಳವಣಿಗೆ, ಸಮಾನತೆ ಮತ್ತು ಸತತತೆಯೊಂದಿಗೆ ಬೆಳೆದ ಸಮತೋಲನ ಡಿಜಿಟಲ್ ಪರಿಸರ ವ್ಯವಸ್ಥೆಯನ್ನು ನಿರ್ಮಿಸುವುದೇ ಭವಿಷ್ಯವಾಗಿದೆ."
+            ]
+        },
+    }
+]
+

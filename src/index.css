@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.serif-playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.kannada-font {
+  font-family: 'Noto Sans Kannada', sans-serif;
+}
