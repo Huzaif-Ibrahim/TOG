@@ -14,21 +14,6 @@ const NewsMain = () => {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
 
-//   const authorData = {
-//     "huzaif": {
-//         "en": {
-//             "name": "Huzaif Ibrahim",
-//             "about": "Huzaif Ibrahim is a curious learner and passionate creator who enjoys exploring ideas across technology, economics, and world affairs. He is a 3rd sem CSE student.This site is a part of his personal learning journey — an effort to simplify knowledge, connect ideas, and grow through curiosity. He hopes it adds value to your journey too.",
-//             "img": "/images/defaultUserIcon.jpg"
-//         },
-//         "kn": {
-//             "name": "ಹುಜಾಫ್ ಇಬ್ರಾಹಿಂ",
-//             "about": "ಹುಜಾಫ್ ಇಬ್ರಾಹಿಂ ತಾಂತ್ರಿಕತೆ, ಅರ್ಥಶಾಸ್ತ್ರ ಮತ್ತು ಜಾಗತಿಕ ವಿಷಯಗಳಲ್ಲಿ ಕಲ್ಪನೆಗಳನ್ನು ಅನ್ವೇಷಿಸಲು ಇಚ್ಛಿಸುವ ಕುತೂಹಲದಿಂದ ಕೂಡಿದ ಓದುಗ ಮತ್ತು ಉತ್ಸಾಹಿ ಸೃಜನಶೀಲ ವ್ಯಕ್ತಿ. ಅವರು ಕಂಪ್ಯೂಟರ್ ಸೈನ್ಸ್ ಅಂಡ್ ಎಂಜಿನಿಯರಿಂಗ್ (CSE) ವಿಭಾಗದ 3ನೇ ಸೆಮಿಸ್ಟರ್ ವಿದ್ಯಾರ್ಥಿ.ಈ ತಾಣವು ಅವರ ವೈಯಕ್ತಿಕ ಕಲಿಕಾ ಪ್ರಯಾಣದ ಒಂದು ಭಾಗ — ಜ್ಞಾನವನ್ನು ಸರಳಗೊಳಿಸಲು, ಕಲ್ಪನೆಗಳನ್ನು ಸಂಪರ್ಕಿಸಲು ಮತ್ತು ಕೌತುಹಲದ ಮೂಲಕ ಬೆಳೆಯುವ ಒಂದು ಪ್ರಯತ್ನ. ಇದು ನಿಮ್ಮ ಪ್ರಯಾಣಕ್ಕೂ ಮೌಲ್ಯವಂತಾಗುತ್ತದೆ ಎಂಬ ಆಶಯವಿದೆ.",
-//             "img": "/images/defaultUserIcon.jpg"
-//         }
-//     }
-// }
-
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -105,13 +90,7 @@ const NewsMain = () => {
   return (
     <>
         <Navbar />
-        {loading ?
-        <section className={`px-4 pt-20 h-screen ${light ? 'bg-white' : 'bg-[#121212]'}`}>
-          <div className="flex justify-center items-center h-screen">
-            <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-blue-500"></div>
-          </div>
-        </section>
-      : <section className={`px-4 lg:px-0 pt-20 md:pt-24 pb-16 min-h-screen ${light ? 'bg-white' : 'bg-[#121212]'}`}>
+        <section className={`px-4 lg:px-0 pt-20 md:pt-24 pb-16 min-h-screen ${light ? 'bg-white' : 'bg-[#121212]'}`}>
           <div className="container max-w-7xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-6">
               {news.map((elem) => {
@@ -125,13 +104,12 @@ const NewsMain = () => {
                   description={elem.description[lan]} 
                   date={elem.date} 
                   author={elem.author[lan] || { name : 'Unknown Author'} }
-                  category={elem.category} 
-                  department={elem.department}  />
+                  category={elem.category} />
                 )
               })}
             </div>
           </div>
-        </section>}
+        </section>
 
         <Footer />
     </>
