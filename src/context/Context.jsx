@@ -4,20 +4,28 @@ export const GlobalContext = createContext()
 
 const ContextState = ({ children }) => {
 
-  const [light, setLight] = useState(true)
-  const [lan, setLan] = useState('en')
+  const [light, setLight] = useState(() => {
+    return JSON.parse(localStorage.getItem('light') ?? 'true');
+  });
+  const [lan, setLan] = useState(() => {
+    return JSON.parse(localStorage.getItem('lan') ?? '"en"');
+  });
 
   const setLocalStorage = () => {
-    localStorage.setItem('light',JSON.stringify(light))
-    localStorage.setItem('lan',JSON.stringify(lan))
+    localStorage.setItem('light', JSON.stringify(light))
+    localStorage.setItem('lan', JSON.stringify(lan))
   }
 
   const getLocalStorage = () => {
-   return {
-    lightStore: JSON.parse(localStorage.getItem('light') ?? 'true'),
-    lanStore: JSON.parse(localStorage.getItem('lan') ?? 'en'),
-  };
+    return {
+      lightStore: JSON.parse(localStorage.getItem('light') ?? 'true'),
+      lanStore: JSON.parse(localStorage.getItem('lan') ?? '"en"'),
+    };
   }
+
+  useEffect(() => {
+    setLocalStorage();
+  }, [light, lan]);
 
   const exports = {
     light,
@@ -30,7 +38,7 @@ const ContextState = ({ children }) => {
 
   return (
     <GlobalContext.Provider value={exports}>
-        { children }
+      {children}
     </GlobalContext.Provider>
   )
 }
