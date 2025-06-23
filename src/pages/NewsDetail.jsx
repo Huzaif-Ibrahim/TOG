@@ -2,7 +2,6 @@ import React, { useContext, useEffect, useState } from 'react'
 import Navbar from '../components/Navbar'
 import { GlobalContext } from '../context/Context'
 import { Link, useParams } from 'react-router-dom'
-import { News } from '../News/News'
 import Footer from '../components/Footer'
 
 const NewsDetail = () => {
@@ -14,22 +13,23 @@ const NewsDetail = () => {
   const [newsItem, setNewsItem] = useState(null)
 
   useEffect(() => {
-    const item = News.find((e) => e.id == id)
-    setNewsItem(item)
+    window.scrollTo(0 , 0)
 
-    const timeout = setTimeout(() => {
-      setLoading(false)
-    }, 1200)
+    fetch('/News.json')
+    .then(res => res.json())
+    .then(data => {
+      const item = data.find((e) => e.id == id)
+      setNewsItem(item)
+      setTimeout(() =>  setLoading(false) , 1200)
+    })
 
-    return () => clearTimeout(timeout)
-
-  }, [id, News])
+  }, [id])
 
   if (loading) {
     return (
       <>
         <Navbar />
-        <section className={`px-4 pt-20 min-h-screen ${light ? 'bg-white' : 'bg-[#121212]'}`}>
+        <section className={`px-4 pt-20 h-screen ${light ? 'bg-white' : 'bg-[#121212]'}`}>
           <div className="flex justify-center items-center h-screen">
             <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-blue-500"></div>
           </div>
