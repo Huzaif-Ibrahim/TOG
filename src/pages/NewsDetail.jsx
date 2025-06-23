@@ -126,7 +126,7 @@ const NewsDetail = () => {
               </div>
 
               <button
-                className={`rounded-full border p-2 h-fit w-fit ${light ? 'border-neutral-300 active:bg-neutral-300' : 'border-neutral-600 active:bg-neutral-600'} `}
+                className={`rounded-full border p-2 h-fit w-fit ${light ? 'border-neutral-300 active:bg-neutral-300' : 'border-neutral-600 active:bg-neutral-600'} transition-all duration-500 `}
                 onClick={() => {
                   if (navigator.share) {
                     navigator.share({
