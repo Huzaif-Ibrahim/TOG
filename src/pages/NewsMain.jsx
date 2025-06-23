@@ -34,7 +34,7 @@ const NewsMain = () => {
                   title={elem.title[lan]} 
                   description={elem.description[lan]} 
                   date={elem.date} 
-                  author={elem.author[lan]} 
+                  author={elem.author[lan] || { name : 'Huzaif Ibrahim'} }
                   category={elem.category} 
                   department={elem.department}  />
                 )
