@@ -145,7 +145,7 @@ const NewsDetail = () => {
 
 
             <div className="h-fit w-auto overflow-hidden flex flex-col gap-1">
-              <div className='img  w-full aspect-video bg-neutral-200 rounded-sm overflow-hidden'>
+              <div className='img w-full aspect-video bg-neutral-200 overflow-hidden'>
                 <img
                   src={newsItem.thumbnail}
                   alt={newsItem.title[lan]}
