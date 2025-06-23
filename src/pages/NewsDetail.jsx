@@ -10,18 +10,68 @@ const NewsDetail = () => {
   const { id } = useParams()
 
   const [loading, setLoading] = useState(true)
-  const [newsItem, setNewsItem] = useState()
+  const [newsItem, setNewsItem] = useState(null)
+  const [error, setError] = useState(null)
+
+  const authorData = {
+    "huzaif": {
+        "en": {
+            "name": "Huzaif Ibrahim",
+            "about": "Huzaif Ibrahim is a curious learner and passionate creator who enjoys exploring ideas across technology, economics, and world affairs. He is a 3rd sem CSE student.This site is a part of his personal learning journey — an effort to simplify knowledge, connect ideas, and grow through curiosity. He hopes it adds value to your journey too.",
+            "img": "/images/defaultUserIcon.jpg"
+        },
+        "kn": {
+            "name": "ಹುಜಾಫ್ ಇಬ್ರಾಹಿಂ",
+            "about": "ಹುಜಾಫ್ ಇಬ್ರಾಹಿಂ ತಾಂತ್ರಿಕತೆ, ಅರ್ಥಶಾಸ್ತ್ರ ಮತ್ತು ಜಾಗತಿಕ ವಿಷಯಗಳಲ್ಲಿ ಕಲ್ಪನೆಗಳನ್ನು ಅನ್ವೇಷಿಸಲು ಇಚ್ಛಿಸುವ ಕುತೂಹಲದಿಂದ ಕೂಡಿದ ಓದುಗ ಮತ್ತು ಉತ್ಸಾಹಿ ಸೃಜನಶೀಲ ವ್ಯಕ್ತಿ. ಅವರು ಕಂಪ್ಯೂಟರ್ ಸೈನ್ಸ್ ಅಂಡ್ ಎಂಜಿನಿಯರಿಂಗ್ (CSE) ವಿಭಾಗದ 3ನೇ ಸೆಮಿಸ್ಟರ್ ವಿದ್ಯಾರ್ಥಿ.ಈ ತಾಣವು ಅವರ ವೈಯಕ್ತಿಕ ಕಲಿಕಾ ಪ್ರಯಾಣದ ಒಂದು ಭಾಗ — ಜ್ಞಾನವನ್ನು ಸರಳಗೊಳಿಸಲು, ಕಲ್ಪನೆಗಳನ್ನು ಸಂಪರ್ಕಿಸಲು ಮತ್ತು ಕೌತುಹಲದ ಮೂಲಕ ಬೆಳೆಯುವ ಒಂದು ಪ್ರಯತ್ನ. ಇದು ನಿಮ್ಮ ಪ್ರಯಾಣಕ್ಕೂ ಮೌಲ್ಯವಂತಾಗುತ್ತದೆ ಎಂಬ ಆಶಯವಿದೆ.",
+            "img": "/images/defaultUserIcon.jpg"
+        }
+    }
+}
 
   useEffect(() => {
     window.scrollTo(0 , 0)
 
-    fetch('/News.json')
-    .then(res => res.json())
-    .then(data => {
-      const item = data.find((e) => e.id == id)
-      setNewsItem(item)
-      setTimeout(() =>  setLoading(false) , 1200)
-    })
+    const fetchNewsItem = async () => {
+      try {
+        setLoading(true)
+        setError(null)
+        
+        // Fetch only the news data (you can optimize this further by having an API endpoint for single news item)
+        const response = await fetch('/News.json')
+        if (!response.ok) {
+          throw new Error('Failed to fetch news data')
+        }
+        
+        const data = await response.json()
+        const item = data.find((e) => e.id === id)
+        
+        if (!item) {
+          throw new Error('News item not found')
+        }
+
+        // Add author data to the news item
+        const enrichedItem = {
+          ...item,
+          author: authorData[item.authorId] || {
+            en: { name: 'Unknown Author', about: 'No information available', img: '/images/defaultUserIcon.jpg' },
+            kn: { name: 'ಅಪರಿಚಿತ ಲೇಖಕ', about: 'ಮಾಹಿತಿ ಲಭ್ಯವಿಲ್ಲ', img: '/images/defaultUserIcon.jpg' }
+          }
+        }
+        
+        setNewsItem(enrichedItem)
+        
+        // Add delay for better UX (optional)
+        setTimeout(() => {
+          setLoading(false)
+        }, 800)
+        
+      } catch (err) {
+        setError(err.message)
+        setLoading(false)
+      }
+    }
+
+    fetchNewsItem()
 
   }, [id])
 
@@ -38,12 +88,22 @@ const NewsDetail = () => {
     )
   }
 
-  if (!newsItem) {
+  if (error || !newsItem) {
     return (
       <>
         <Navbar />
-        <section className="pt-20 min-h-screen text-center">
-          <p className="text-red-500">News not found</p>
+        <section className={`pt-20 min-h-screen text-center ${light ? 'bg-white' : 'bg-[#121212]'}`}>
+          <div className="flex flex-col items-center justify-center h-96">
+            <p className={`text-red-500 text-lg mb-4`}>
+              {error || 'News not found'}
+            </p>
+            <Link 
+              to="/" 
+              className="text-blue-500 hover:text-blue-700 underline"
+            >
+              ← Back to News
+            </Link>
+          </div>
         </section>
       </>
     )
@@ -72,7 +132,7 @@ const NewsDetail = () => {
             </div>
 
             <div className="author flex flex-col">
-              <p className={`text-xs text-gray-500`}>by <span className='font-bold'>{newsItem.author[lan].name || 'Unknown'}</span></p>
+              <p className={`text-xs text-gray-500`}>by <span className='font-bold'>{newsItem.author[lan]?.name || 'Unknown'}</span></p>
               <p className="text-xs text-gray-500">{newsItem.date}</p>
             </div>
 
@@ -94,7 +154,7 @@ const NewsDetail = () => {
             </div>
 
             <div className="about-user flex justify-center items-center gap-2 pl-4 border-l-4 border-l-neutral-500 mt-4">
-              <img src={newsItem.author[lan].img} alt={`${newsItem.author[lan].name}'s Img`} className='h-20 w-20 rounded-full' />
+              <img src={newsItem.author[lan]?.img || '/images/defaultUserIcon.jpg' } alt={`${newsItem.author[lan].name}'s Img`} className='h-20 w-20 rounded-full' />
 
               <p className={`${light ? 'text-gray-700' : 'text-gray-300'} text-sm font-light italic`}>{newsItem.author[lan].about}</p>
             </div>
