@@ -13,9 +13,22 @@ const NewsMain = () => {
   const [news, setNews] = useState([])
 
   useEffect(() => {
-    fetch('/News.json')
-    .then(res => res.json())
-    .then(data => setNews(data))
+    const fetchData = async () => {
+      const newsRes = await fetch('/News.json')
+      const newsData = await newsRes.json()
+
+      const authorRes = await fetch('/Author.json')
+      const authorData = await authorRes.json()
+
+      const enrichedNews = newsData.map(item => ({
+      ...item,
+      author: authorData[item.authorId] || {} // merge author by ID
+    }));
+
+    setNews(enrichedNews);
+    }
+
+    fetchData()
   },[])
 
   return (
