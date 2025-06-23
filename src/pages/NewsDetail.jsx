@@ -144,8 +144,15 @@ const NewsDetail = () => {
             </div>
 
 
-            <div className="img h-fit w-auto overflow-hidden flex flex-col gap-1">
-              <img src={newsItem.thumbnail} alt={newsItem.title[lan]} className='h-full w-full' />
+            <div className="h-fit w-auto overflow-hidden flex flex-col gap-1">
+              <div className='img  w-full aspect-video bg-neutral-200 rounded-sm overflow-hidden'>
+                <img
+                  src={newsItem.thumbnail}
+                  alt={newsItem.title[lan]}
+                  className='h-full w-full object-cover object-center'
+                  loading='lazy'
+                />
+              </div>
 
               {newsItem.aboutImg && (
                 <p className={`${light ? 'text-gray-900' : 'text-white'} text-[10px] leading-4 italic font-light`}>{newsItem.aboutImg[lan]}</p>

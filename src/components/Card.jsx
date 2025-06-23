@@ -1,17 +1,21 @@
 import React, { useContext } from 'react'
 import { GlobalContext } from '../context/Context'
 
-const Card = ({ id , thumbnail, title, description, date, author, category , navigate}) => {
+const Card = ({ id, thumbnail, title, description, date, author, category, navigate }) => {
 
     const { light, lan } = useContext(GlobalContext)
 
     return (
         <div className={`rounded-lg h-full border shadow-md hover:shadow-lg transition-shadow duration-300 ${light ? 'bg-white text-black border-gray-200' : 'bg-[#1E1E1E] text-white border-[#2A2A2A]'}`}
-        onClick={()=>navigate(`/news/${id}`)}
+            onClick={() => navigate(`/news/${id}`)}
         >
             <div className="container flex flex-col gap-4 p-4 h-full w-full">
-                <div className="img h-fit w-auto rounded-sm overflow-hidden">
-                    <img src={thumbnail} alt={title} className='h-full w-full'/>
+                <div className="img w-full aspect-video bg-neutral-200 rounded-sm overflow-hidden">
+                    <img
+                        src={thumbnail}
+                        alt={title}
+                        className='h-full w-full object-cover object-center'
+                        loading='lazy' />
                 </div>
 
                 <div className="info flex flex-col gap-2">
