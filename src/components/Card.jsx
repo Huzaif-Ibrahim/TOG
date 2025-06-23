@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { GlobalContext } from '../context/Context'
 
-const Card = ({ id , thumbnail, title, description, date, author, category, department , navigate}) => {
+const Card = ({ id , thumbnail, title, description, date, author, category , navigate}) => {
 
     const { light, lan } = useContext(GlobalContext)
 

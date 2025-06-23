@@ -13,6 +13,7 @@ const NewsMain = () => {
   const [news, setNews] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
+  const [contentVisible, setContentVisible] = useState(5)
 
   useEffect(() => {
     const fetchData = async () => {
@@ -90,10 +91,10 @@ const NewsMain = () => {
   return (
     <>
         <Navbar />
-        <section className={`px-4 lg:px-0 pt-20 md:pt-24 pb-16 min-h-screen ${light ? 'bg-white' : 'bg-[#121212]'}`}>
+        <section className={`px-4 lg:px-0 pt-20 md:pt-24 pb-8 min-h-screen ${light ? 'bg-white' : 'bg-[#121212]'}`}>
           <div className="container max-w-7xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-6">
-              {news.map((elem) => {
+              {news.slice(0,contentVisible).map((elem) => {
                 return (
                   <Card 
                   navigate={navigate}
@@ -109,6 +110,15 @@ const NewsMain = () => {
               })}
             </div>
           </div>
+
+          {contentVisible < news.length && (
+            <div className='flex justify-center items-center h-fit mt-8'>
+              <button
+              onClick={() => setContentVisible((prev) => prev + 5)}
+              className='px-4 py-2 rounded-lg bg-blue-500 hover:bg-blue-700 transition-all duration-500 text-white'
+              >Show More</button>
+            </div>
+          )}
         </section>
 
         <Footer />
