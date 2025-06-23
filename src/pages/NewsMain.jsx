@@ -11,6 +11,7 @@ const NewsMain = () => {
   const navigate = useNavigate()
 
   const [news, setNews] = useState([])
+  const [loading, setLoading] = useState(true)
 
   useEffect(() => {
     const fetchData = async () => {
@@ -29,12 +30,19 @@ const NewsMain = () => {
     }
 
     fetchData()
+    setLoading(false)
   },[])
 
   return (
     <>
         <Navbar />
-        <section className={`px-4 lg:px-0 pt-20 md:pt-24 pb-16 min-h-screen ${light ? 'bg-white' : 'bg-[#121212]'}`}>
+        {loading ?
+        <section className={`px-4 pt-20 h-screen ${light ? 'bg-white' : 'bg-[#121212]'}`}>
+          <div className="flex justify-center items-center h-screen">
+            <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-blue-500"></div>
+          </div>
+        </section>
+      : <section className={`px-4 lg:px-0 pt-20 md:pt-24 pb-16 min-h-screen ${light ? 'bg-white' : 'bg-[#121212]'}`}>
           <div className="container max-w-7xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-6">
               {news.map((elem) => {
@@ -54,7 +62,7 @@ const NewsMain = () => {
               })}
             </div>
           </div>
-        </section>
+        </section>}
 
         <Footer />
     </>

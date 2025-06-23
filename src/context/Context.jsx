@@ -15,7 +15,7 @@ const ContextState = ({ children }) => {
   const getLocalStorage = () => {
    return {
     lightStore: JSON.parse(localStorage.getItem('light') ?? 'true'),
-    lanStore: JSON.parse(localStorage.getItem('lan') ?? '"eng"'),
+    lanStore: JSON.parse(localStorage.getItem('lan') ?? 'en'),
   };
   }
 
