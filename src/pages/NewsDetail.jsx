@@ -10,7 +10,7 @@ const NewsDetail = () => {
   const { id } = useParams()
 
   const [loading, setLoading] = useState(true)
-  const [newsItem, setNewsItem] = useState(null)
+  const [newsItem, setNewsItem] = useState()
 
   useEffect(() => {
     window.scrollTo(0 , 0)
