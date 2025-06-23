@@ -72,7 +72,7 @@ const NewsDetail = () => {
             </div>
 
             <div className="author flex flex-col">
-              <p className={`text-xs text-gray-500`}>by <span className='font-bold'>{newsItem.author[lan].name}</span></p>
+              <p className={`text-xs text-gray-500`}>by <span className='font-bold'>{newsItem.author[lan].name || 'Unknown'}</span></p>
               <p className="text-xs text-gray-500">{newsItem.date}</p>
             </div>
 
