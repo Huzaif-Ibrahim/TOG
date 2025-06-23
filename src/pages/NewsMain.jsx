@@ -115,7 +115,7 @@ const NewsMain = () => {
             <div className='flex justify-center items-center h-fit mt-8'>
               <button
               onClick={() => setContentVisible((prev) => prev + 5)}
-              className={`px-4 py-2 rounded-lg transition-all duration-500 ${light ? 'bg-white text-black border-gray-200 hover:bg-gray-200' : 'bg-[#1E1E1E] text-white border-[#2A2A2A] hover:bg-[#2A2A2A]'}`}
+              className={`px-4 py-2 rounded-lg transition-all duration-500 border ${light ? 'bg-white text-black border-gray-200 hover:bg-gray-200' : 'bg-[#1E1E1E] text-white border-[#2A2A2A] hover:bg-[#2A2A2A]'}`}
               >Show More</button>
             </div>
           )}
