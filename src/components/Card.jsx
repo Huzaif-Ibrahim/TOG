@@ -45,5 +45,3 @@ const Card = ({ id, thumbnail, title, description, date, author, category, navig
 }
 
 export default Card
-
-// Meta Info (author, date)	text-xs text-gray-500
