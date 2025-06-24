@@ -3,6 +3,7 @@ import NewsDetail from './pages/NewsDetail'
 import NewsMain from './pages/NewsMain'
 import { useContext, useEffect } from 'react'
 import { GlobalContext } from './context/Context'
+import { Analytics } from "@vercel/analytics/next"
 
 const App = () => {
 
@@ -21,6 +22,7 @@ const App = () => {
 
   return (
     <>
+    <Analytics />
       <Routes>
         <Route path='/' element={<NewsMain />} />
         <Route path='/news/:id' element={<NewsDetail />} />
