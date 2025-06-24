@@ -21,7 +21,6 @@ const NewsMain = () => {
         setLoading(true)
         setError(null)
 
-        // Fetch only news data
         const newsRes = await fetch('/News.json')
         const authorRes = await fetch('/Author.json')
 
@@ -32,7 +31,6 @@ const NewsMain = () => {
         const newsData = await newsRes.json()
         const authorData = await authorRes.json()
         
-        // Enrich news with author data
         const enrichedNews = newsData.map(item => ({
           ...item,
           author: authorData[item.authorId] || {

@@ -22,7 +22,6 @@ const NewsDetail = () => {
         setLoading(true)
         setError(null)
 
-        // Fetch only the news data (you can optimize this further by having an API endpoint for single news item)
         const response = await fetch(`/News/news${id}.json`)
         const authorRes = await fetch('/Author.json')
 
@@ -38,7 +37,6 @@ const NewsDetail = () => {
           throw new Error('News item not found')
         }
 
-        // Add author data to the news item
         const enrichedItem = {
           ...item,
           author: authorData[item.authorId] || {
@@ -49,7 +47,6 @@ const NewsDetail = () => {
 
         setNewsItem(enrichedItem)
 
-        // Add delay for better UX (optional)
         setTimeout(() => {
           setLoading(false)
         }, 800)
@@ -103,10 +100,6 @@ const NewsDetail = () => {
     <>
       <Navbar />
       <section className={`px-4 lg:px-0 pt-20 md:pt-24 pb-16 min-h-screen ${light ? 'bg-white' : 'bg-[#121212]'}`}>
-
-        {/* <div className={`h-fit w-fit rounded-full p-2 ${light ? 'bg-neutral-200' : 'bg-neutral-800'}`}>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" color={`${light ? 'black' : 'white'}`} height={25} width={25}><path d="M7.82843 10.9999H20V12.9999H7.82843L13.1924 18.3638L11.7782 19.778L4 11.9999L11.7782 4.22168L13.1924 5.63589L7.82843 10.9999Z"></path></svg>
-        </div> */}
 
         <div className="container max-w-5xl mx-auto">
           <div className='flex flex-col gap-4'>
