@@ -1,36 +1,50 @@
 [
     {
         "id": "001",
-        "thumbnail": "/images/img1.jpg",
-        "category": "Event",
+        "thumbnail": "/images/news001.jpg",
+        "category": "Student Initiatives",
         "department": "CSE",
-        "date": "2025-06-22",
+        "date": "June 25 2025",
         "authorId": "huzaif",
         "title": {
-            "en": "Tech Fest 2025 Scheduled for July 15",
-            "kn": "ಟೆಕ್ ಫೆಸ್ಟ್ 2025 ಜುಲೈ 15 ರಂದು"
+            "en": "CSE Student Launches All-in-One News Portal for College Updates",
+            "kn": "ಕಾಲೇಜು ಸುದ್ದಿಗಳಿಗೆ ಡಿಪ್ಲೊಮಾ ವಿದ್ಯಾರ್ಥಿಯಿಂದ ಹೊಸ ವೆಬ್‌ಸೈಟ್"
         },
         "description": {
-            "en": "Annual tech fest with contests and workshops is scheduled for July.",
-            "kn": "ಪ್ರತಿ ವರ್ಷದ ಟೆಕ್ ಫೆಸ್ಟ್ ಜುಲೈನಲ್ಲಿ ನಡೆಯಲಿದೆ."
+            "en": "A CSE student launches a website to share college news in English and Kannada.",
+            "kn": "ಕಾಲೇಜು ಸುದ್ದಿಗಾಗಿ ವಿದ್ಯಾರ್ಥಿಯೊಬ್ಬರು ಇಂಗ್ಲಿಷ್ ಮತ್ತು ಕನ್ನಡದಲ್ಲಿರುವ ವೆಬ್‌ಸೈಟ್ ಪ್ರಾರಂಭಿಸಿದ್ದಾರೆ."
         },
         "content": {
             "en": [
-                "India has witnessed a massive transformation in its economy over the past decade, driven largely by digital innovations and technological advancements. With the widespread use of smartphones and affordable internet, even rural populations now have access to banking, education, and government services at their fingertips. This digital revolution is not just about convenience, but also about inclusivity and empowerment.",
-                "Government initiatives like Digital India, UPI, and Aadhaar have played a key role in accelerating the shift to a digital-first nation. Businesses are increasingly adopting online platforms, enabling micro, small, and medium enterprises (MSMEs) to compete in global markets. E-commerce, fintech, and edtech sectors have flourished, creating jobs and investment opportunities across the country.",
-                "Despite these advancements, challenges remain. Cybersecurity, data privacy, and digital literacy are ongoing concerns that need robust policies and awareness campaigns. Ensuring equitable access to digital tools, especially for women and marginalized communities, will be crucial to maintaining inclusive growth.",
-                "As India continues its journey toward becoming a $5 trillion economy, its digital infrastructure and innovation capabilities will be at the heart of this evolution. The future lies in creating a balanced digital ecosystem that supports growth, equity, and sustainability for all."
+                "In a remarkable step toward digital transformation on campus, Huzaif Ibrahim, a passionate and self-taught Computer Science Diploma student, has officially launched a brand-new website dedicated to college-related news and updates.",
+                "The platform is designed to serve as a one-stop solution for students, offering timely updates on exam results, placement drives, academic schedules, event announcements, student achievements, and workshops. It also acts as a space to spotlight creative student projects and departmental initiatives.",
+                {
+                    "type": "quote",
+                    "heading" : "Huzaif shared his vision behind the project:",
+                    "text": "\"I always felt the need for a centralized source for college updates — this site brings everything to one place.\"",
+                    "author": "Huzaif Ibrahim"
+                },
+                "A standout feature of the website is its language support, as the content is available in both English and Kannada, ensuring inclusivity for all students across Karnataka. The site has a clean, mobile-friendly interface and is updated regularly to keep students connected to every small or big event.",
+                "The project has received encouraging feedback from peers and faculty, and Huzaif plans to expand it further by adding push notifications, student polls, and department-specific dashboards.",
+                "This initiative not only reflects technical skills but also shows leadership and a genuine desire to improve the student experience — truly inspiring for the entire college community."
             ],
             "kn": [
-                "ಗತ ಒಂದು ದಶಕದಲ್ಲಿ ಭಾರತವು ತನ್ನ ಅರ್ಥವ್ಯವಸ್ಥೆಯಲ್ಲಿ ಭಾರೀ ಬದಲಾವಣೆಯನ್ನು ಕಂಡಿದೆ, ಇದು ಬಹುಪಾಲು ಡಿಜಿಟಲ್ ಆವಿಷ್ಕಾರಗಳು ಮತ್ತು ತಾಂತ್ರಿಕ ಪ್ರಗತಿಗಳಿಂದ ಚಾಲಿತವಾಗಿದೆ. ಸ್ಮಾರ್ಟ್‌ಫೋನ್‌ಗಳ ವ್ಯಾಪಕ ಬಳಕೆ ಮತ್ತು ಪರವಡಬಹುದಾದ ಇಂಟರ್‌ನೆಟ್‌ನೊಂದಿಗೆ, ಗ್ರಾಮೀಣ ಜನಸಂಖ್ಯೆಯೂ ಬ್ಯಾಂಕಿಂಗ್, ಶಿಕ್ಷಣ ಮತ್ತು ಸರಕಾರದ ಸೇವೆಗಳಿಗೆ ಸುಲಭವಾಗಿ ಪ್ರವೇಶ ಸಾಧಿಸಬಹುದು. ಈ ಡಿಜಿಟಲ್ ಕ್ರಾಂತಿ ಸುಲಭತೆಗಾಗಿ ಮಾತ್ರವಲ್ಲದೆ, ಸಮಾವೇಶ ಮತ್ತು ಶಕ್ತಿಕರಣದತ್ತವೂ ಸಾಗುತ್ತಿದೆ.",
-                "ಡಿಜಿಟಲ್ ಇಂಡಿಯಾ, ಯುಪಿಐ, ಆಧಾರ್ ಮುಂತಾದ ಸರಕಾರದ ಯೋಜನೆಗಳು ಡಿಜಿಟಲ್ ದೇಶದತ್ತ ತಿರುಗುವಿಕೆಯನ್ನು ವೇಗಗೊಳಿಸುವಲ್ಲಿ ಮಹತ್ವದ ಪಾತ್ರವಹಿಸಿವೆ. ವ್ಯಾಪಾರಗಳು ಆನ್‌ಲೈನ್ ತಂತ್ರಜ್ಞಾನಗಳನ್ನು ಸ್ವೀಕರಿಸುತ್ತಿದ್ದು, ಸಣ್ಣ ಮತ್ತು ಮಧ್ಯಮ ಉದ್ದಿಮೆಗಳಿಗೆ ಜಾಗತಿಕ ಮಾರುಕಟ್ಟೆಗಳಲ್ಲಿ ಸ್ಪರ್ಧಿಸಲು ಅವಕಾಶ ಮಾಡಿಕೊಡುತ್ತಿವೆ. ಈ-ಕಾಮರ್ಸ್, ಫಿನ್‌ಟೆಕ್, ಎಡ್‌ಟೆಕ್ ಕ್ಷೇತ್ರಗಳು ವ್ಯಾಪಕವಾಗಿ ಬೆಳೆಯುತ್ತಿವೆ, ಉದ್ಯೋಗ ಮತ್ತು ಹೂಡಿಕೆ ಅವಕಾಶಗಳನ್ನು ಸೃಷ್ಟಿಸುತ್ತಿವೆ.",
-                "ಈ ಪ್ರಗತಿಗಳ ನಡುವೆಯೂ, ಸೈಬರ್ ಸುರಕ್ಷತೆ, ಡೇಟಾ ಗೌಪ್ಯತೆ ಮತ್ತು ಡಿಜಿಟಲ್ ಅರಿವು ಮುಂತಾದ ಸವಾಲುಗಳು ಮುಂದುವರಿಯುತ್ತಿವೆ. ಮಹಿಳೆಯರು ಮತ್ತು ಅಲ್ಪಸಂಖ್ಯಾತ ಸಮುದಾಯಗಳು ಸೇರಿದಂತೆ ಎಲ್ಲರಿಗೂ ಸಮಾನ ಡಿಜಿಟಲ್ ಪ್ರವೇಶವನ್ನು ಖಚಿತಪಡಿಸುವುದು ಸಮಾವೇಶಿತ ಅಭಿವೃದ್ಧಿಗೆ ಮುಖ್ಯವಾಗಿದೆ.",
-                "ಭಾರತವು $5 ಟ್ರಿಲಿಯನ್ ಅರ್ಥವ್ಯವಸ್ಥೆಯ ಗುರಿಯತ್ತ ಸಾಗುತ್ತಿರುವಾಗ, ಅದರ ಡಿಜಿಟಲ್ ಮೂಲಸೌಕರ್ಯ ಮತ್ತು ಆವಿಷ್ಕಾರ ಸಾಮರ್ಥ್ಯವು ಈ ಬದಲಾವಣೆಯ ಕೇಂದ್ರಬಿಂದುವಾಗಿರುತ್ತದೆ. ಬೆಳವಣಿಗೆ, ಸಮಾನತೆ ಮತ್ತು ಸತತತೆಯೊಂದಿಗೆ ಬೆಳೆದ ಸಮತೋಲನ ಡಿಜಿಟಲ್ ಪರಿಸರ ವ್ಯವಸ್ಥೆಯನ್ನು ನಿರ್ಮಿಸುವುದೇ ಭವಿಷ್ಯವಾಗಿದೆ."
+                "ಕಾಲೇಜಿನಲ್ಲಿ ಡಿಜಿಟಲ್ ಯುಗದತ್ತ ಮತ್ತೊಂದು ಹೆಜ್ಜೆ ಇಡಲಾಗಿದೆ. ಹುಸೈಫ್ ಇಬ್ರಾಹಿಂ, ಡಿಪ್ಲೊಮಾ ಕಂಪ್ಯೂಟರ್ ಸೈನ್ಸ್ ವಿದ್ಯಾರ್ಥಿ, ಕಾಲೇಜು ಕುರಿತ ಎಲ್ಲ ನವೀಕರಣಗಳಿಗಾಗಿ ಒಂದು ಸಂಪೂರ್ಣ ವೆಬ್‌ಸೈಟ್ ಅನ್ನು ವಿನ್ಯಾಸಗೊಳಿಸಿ ಮತ್ತು ಪ್ರಾರಂಭಿಸಿದ್ದಾರೆ.",
+                "ಈ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಪರೀಕ್ಷಾ ಫಲಿತಾಂಶಗಳು, ಪ್ಲೇಸ್ಮೆಂಟ್ ಮಾಹಿತಿಗಳು, ವರ್ಕ್‌ಶಾಪ್‌ಗಳು, ಕಾರ್ಯಕ್ರಮದ ದಿನಾಂಕಗಳು, ವಿದ್ಯಾರ್ಥಿಗಳ ಸಾಧನೆಗಳು ಮತ್ತು ಇನ್ನೂ ಹೆಚ್ಚಿನ ವಿಷಯಗಳನ್ನು ಒಟ್ಟಾಗಿ ತಲುಪಿಸುವ ಕೆಲಸ ಮಾಡುತ್ತದೆ. ಇದು ವಿದ್ಯಾರ್ಥಿಗಳ ಯೋಜನೆಗಳು ಮತ್ತು ಡಿಪಾರ್ಟ್ಮೆಂಟ್‌ಗಳ ಕ್ರಿಯಾಶೀಲತೆಗೂ ಸ್ಥಳ ಒದಗಿಸುತ್ತದೆ.",
+                {
+                    "type": "quote",
+                    "heading" : "ಹುಜಾಫ್ ತಮ್ಮ ಉದ್ದೇಶವನ್ನು ಹಂಚಿಕೊಂಡು ಹೇಳಿದರು:",
+                    "text": "\"ನಾನು ಯಾವಾಗಲೂ ಕಾಲೇಜಿನ ನವೀಕರಣಗಳಿಗಾಗಿ ಒಂದು ಕೇಂದ್ರಿತ ತಾಣದ ಅಗತ್ಯವಿದೆ ಎಂದು ಭಾವಿಸುತ್ತಿದ್ದೆ — ಈ ತಾಣ ಎಲ್ಲವನ್ನೂ ಒಂದು ಕಡೆ ಒಯ್ಯುತ್ತದೆ.\"",
+                    "author": "ಹುಸೈಫ್ ಇಬ್ರಾಹಿಂ"
+                },
+                "ಈ ತಾಣದ ವಿಶೇಷತೆ ಎಂದರೆ, ಇಂಗ್ಲಿಷ್ ಮತ್ತು ಕನ್ನಡ ಎರಡೂ ಭಾಷೆಗಳಲ್ಲಿ ಲಭ್ಯವಿರುವದು. ಇದರಿಂದ ಎಲ್ಲ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಎಳೆಯ ಹಂತದಲ್ಲಿಯೇ ಮಾಹಿತಿ ತಲುಪಲು ಸಾಧ್ಯವಾಗುತ್ತದೆ. ತಾಣವು ಮೊಬೈಲ್ ಸ್ನೇಹಿ ಮತ್ತು ನಿತ್ಯ ನವೀಕರಿಸಲಾಗುತ್ತದೆ.",
+                "ಇದೇ ಆರಂಭವಷ್ಟೆ. ಹುಸೈಫ್ ತಾವು ಮುಂದಿನ ದಿನಗಳಲ್ಲಿ ತಾಣದಲ್ಲಿ notifications, ಪ್ರಶ್ನೋತ್ತರಗಳು, ಡಿಪಾರ್ಟ್ಮೆಂಟ್-ವೈಯಕ್ತಿಕ ಪುಟಗಳು ಸೇರಿಸಲು ಯೋಜಿಸುತ್ತಿದ್ದಾರೆ.",
+                "ಈ ಆರಂಭ ಮಾತ್ರ ತಾಂತ್ರಿಕ ಕೌಶಲ್ಯವಲ್ಲ, ಇದು ನಾಯಕರತ್ವದ, ಪ್ರಯತ್ನದ ಮತ್ತು ದೈರ್ಯದ ಉದಾಹರಣೆಯಾಗಿದೆ — ನಮ್ಮ ಕಾಲೇಜಿನ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಪ್ರೇರಣೆಯಾಗಿದೆ."
             ]
         },
         "aboutImg": {
-            "en": "Annual tech fest with contests and workshops is scheduled for July.",
-            "kn": "ಪ್ರತಿ ವರ್ಷದ ಟೆಕ್ ಫೆಸ್ಟ್ ಜುಲೈನಲ್ಲಿ ನಡೆಯಲಿದೆ."
+            "en": "Stock image representing college news and updates",
+            "kn": "ಕಾಲೇಜು ಸುದ್ದಿಗಳನ್ನು ಪ್ರತಿನಿಧಿಸುವ ಸ್ಟಾಕ್ ಚಿತ್ರ"
         }
     }
 ]

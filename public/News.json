@@ -1,107 +1,17 @@
 [
     {
         "id": "001",
-        "thumbnail": "/images/img1.jpg",
-        "category": "Event",
-        "date": "2025-06-22",
+        "thumbnail": "/images/news001.jpg",
+        "category": "Student Initiatives",
+        "date": "June 25 2025",
         "authorId": "huzaif",
         "title": {
-            "en": "Tech Fest 2025 Scheduled for July 15",
-            "kn": "ಟೆಕ್ ಫೆಸ್ಟ್ 2025 ಜುಲೈ 15 ರಂದು"
+            "en": "CSE Student Launches All-in-One News Portal for College Updates",
+            "kn": "ಕಾಲೇಜು ಸುದ್ದಿಗಳಿಗೆ ಡಿಪ್ಲೊಮಾ ವಿದ್ಯಾರ್ಥಿಯಿಂದ ಹೊಸ ವೆಬ್‌ಸೈಟ್"
         },
         "description": {
-            "en": "Annual tech fest with contests and workshops is scheduled for July.",
-            "kn": "ಪ್ರತಿ ವರ್ಷದ ಟೆಕ್ ಫೆಸ್ಟ್ ಜುಲೈನಲ್ಲಿ ನಡೆಯಲಿದೆ."
-        }
-    },
-    {
-        "id": "002",
-        "thumbnail": "/images/img2.jpg",
-        "category": "Notice",
-        "date": "2025-06-20",
-        "authorId": "huzaif",
-        "title": {
-            "en": "Mid-Sem Exams Postponed to August",
-            "kn": "ಮಧ್ಯ ಸೆಮ್ ಪರೀಕ್ಷೆಗಳು ಆಗಸ್ಟ್‌ಗೆ ಮುಂದೂಡಲ್ಪಟ್ಟಿವೆ"
-        },
-        "description": {
-            "en": "Exams delayed due to weather; new schedule coming soon.",
-            "kn": "ಹವಾಮಾನ ಕಾರಣದಿಂದ ಪರೀಕ್ಷೆ ಮುಂದೂಡಲ್ಪಟ್ಟಿದೆ."
-        }
-    },
-    {
-        "id": "003",
-        "thumbnail": "/images/img3.jpg",
-        "category": "Placement",
-        "date": "2025-06-18",
-        "authorId": "huzaif" ,
-        "title": {
-            "en": "Infosys to Visit Campus for Recruitment",
-            "kn": "ಇನ್ಫೋಸಿಸ್ ನೇಮಕಾತಿಗಾಗಿ ಕಾಲೇಜಿಗೆ ಭೇಟಿ ನೀಡಲಿದೆ"
-        },
-        "description": {
-            "en": "Final-year students eligible for Infosys drive in August.",
-            "kn": "ಅಂತಿಮ ವರ್ಷದ ವಿದ್ಯಾರ್ಥಿಗಳು ಆಗಸ್ಟ್‌ನ ನೇಮಕಾತಿಗೆ ಅರ್ಹರಾಗಿದ್ದಾರೆ."
-        }
-    },
-    {
-        "id": "004",
-        "thumbnail": "/images/img3.jpg",
-        "category": "Placement",
-        "date": "2025-06-18",
-        "authorId": "huzaif" ,
-        "title": {
-            "en": "Infosys to Visit Campus for Recruitment",
-            "kn": "ಇನ್ಫೋಸಿಸ್ ನೇಮಕಾತಿಗಾಗಿ ಕಾಲೇಜಿಗೆ ಭೇಟಿ ನೀಡಲಿದೆ"
-        },
-        "description": {
-            "en": "Final-year students eligible for Infosys drive in August.",
-            "kn": "ಅಂತಿಮ ವರ್ಷದ ವಿದ್ಯಾರ್ಥಿಗಳು ಆಗಸ್ಟ್‌ನ ನೇಮಕಾತಿಗೆ ಅರ್ಹರಾಗಿದ್ದಾರೆ."
-        }
-    },
-    {
-        "id": "005",
-        "thumbnail": "/images/img3.jpg",
-        "category": "Placement",
-        "date": "2025-06-18",
-        "authorId": "huzaif" ,
-        "title": {
-            "en": "Infosys to Visit Campus for Recruitment",
-            "kn": "ಇನ್ಫೋಸಿಸ್ ನೇಮಕಾತಿಗಾಗಿ ಕಾಲೇಜಿಗೆ ಭೇಟಿ ನೀಡಲಿದೆ"
-        },
-        "description": {
-            "en": "Final-year students eligible for Infosys drive in August.",
-            "kn": "ಅಂತಿಮ ವರ್ಷದ ವಿದ್ಯಾರ್ಥಿಗಳು ಆಗಸ್ಟ್‌ನ ನೇಮಕಾತಿಗೆ ಅರ್ಹರಾಗಿದ್ದಾರೆ."
-        }
-    },
-    {
-        "id": "006",
-        "thumbnail": "/images/img3.jpg",
-        "category": "Placement",
-        "date": "2025-06-18",
-        "authorId": "huzaif" ,
-        "title": {
-            "en": "Infosys to Visit Campus for Recruitment",
-            "kn": "ಇನ್ಫೋಸಿಸ್ ನೇಮಕಾತಿಗಾಗಿ ಕಾಲೇಜಿಗೆ ಭೇಟಿ ನೀಡಲಿದೆ"
-        },
-        "description": {
-            "en": "Final-year students eligible for Infosys drive in August.",
-            "kn": "ಅಂತಿಮ ವರ್ಷದ ವಿದ್ಯಾರ್ಥಿಗಳು ಆಗಸ್ಟ್‌ನ ನೇಮಕಾತಿಗೆ ಅರ್ಹರಾಗಿದ್ದಾರೆ."
-        }
-    },
-    {
-        "id": "007",
-        "thumbnail": "/images/img3.jpg",
-        "category": "Placement",
-        "date": "2025-06-18",
-        "authorId": "huzaif" ,
-        "title": {
-            "en": "Infosys to Visit Campus for Recruitment",
-            "kn": "ಇನ್ಫೋಸಿಸ್ ನೇಮಕಾತಿಗಾಗಿ ಕಾಲೇಜಿಗೆ ಭೇಟಿ ನೀಡಲಿದೆ"
-        },
-        "description": {
-            "en": "Final-year students eligible for Infosys drive in August.",
-            "kn": "ಅಂತಿಮ ವರ್ಷದ ವಿದ್ಯಾರ್ಥಿಗಳು ಆಗಸ್ಟ್‌ನ ನೇಮಕಾತಿಗೆ ಅರ್ಹರಾಗಿದ್ದಾರೆ."
+            "en": "A CSE student launches a website to share college news in English and Kannada.",
+            "kn": "ಕಾಲೇಜು ಸುದ್ದಿಗಾಗಿ ವಿದ್ಯಾರ್ಥಿಯೊಬ್ಬರು ಇಂಗ್ಲಿಷ್ ಮತ್ತು ಕನ್ನಡದಲ್ಲಿರುವ ವೆಬ್‌ಸೈಟ್ ಪ್ರಾರಂಭಿಸಿದ್ದಾರೆ."
         }
     }
 ]

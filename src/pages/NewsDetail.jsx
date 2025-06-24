@@ -160,17 +160,32 @@ const NewsDetail = () => {
             </div>
 
             <div className="content mt-2">
-              {newsItem.content[lan].map((e, i) => {
-                return (
+              {newsItem.content[lan].map((e, i) =>
+
+                typeof e === 'string' ? (
+
                   <p className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-medium text-[18px] lg:text-xl mb-6 ${light ? 'text-black' : 'text-white'}`} key={i}>{e}</p>
-                )
-              })}
+
+                ) : e.type === 'quote' ? (
+                  <div key={i} className='flex flex-col mb-6'>
+                    <p className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-medium text-[18px] lg:text-xl ${light ? 'text-black' : 'text-white'}`}>{e.heading}</p>
+
+                    <div className='border-l-4 border-blue-500 pl-4 py-1 h-fit'>
+                      <p className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-medium text-[18px] lg:text-xl italic ${light ? 'text-gray-700' : 'text-gray-300'}`}>{e.text}</p>
+                    </div>
+                  </div>
+                ) : null
+
+              )}
             </div>
 
             <div className="about-user flex justify-center items-center gap-2 pl-4 border-l-4 border-l-neutral-500 mt-4">
-              <img src={newsItem.author[lan]?.img || '/images/defaultUserIcon.jpg'} alt={`${newsItem.author[lan].name}'s Img`} className='h-20 w-20 rounded-full' />
+              <img 
+              src={newsItem.author?.img || '/images/defaultUserIcon.jpg'} 
+              alt={`${newsItem.author?.[lan]?.name || 'Author'}'s Img`} 
+              className='h-20 w-20 rounded-full' />
 
-              <p className={`${light ? 'text-gray-700' : 'text-gray-300'} text-sm font-light italic`}>{newsItem.author[lan].about}</p>
+              <p className={`${light ? 'text-gray-700' : 'text-gray-300'} text-sm font-light italic`}>{newsItem.author?.[lan]?.about || ''}</p>
             </div>
 
 
