@@ -1,5 +1,20 @@
 [
     {
+        "id": "002",
+        "thumbnail": "/images/002/1.jpg",
+        "category": "Event",
+        "date": "June 26, 2025",
+        "authorId": "huzaif",
+        "title": {
+            "en": " CSE Department Welcomes Freshers with a Grand Celebration",
+            "kn": "ಸಿಎಸ್ಇ ವಿಭಾಗದಲ್ಲಿ ಹೊಸಬರಿಗೆ ಅದ್ದೂರಿ ಸ್ವಾಗತ ಸಮಾರಂಭ"
+        },
+        "description": {
+            "en": " The CSE Department hosted a lively Freshers’ Party on June 25, 2025, to warmly welcome the new students.",
+            "kn": " ಜೂನ್ 25, 2025 ರಂದು ಸಿಎಸ್ಇ ವಿಭಾಗವು ಹೊಸ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಫ್ರೆಶರ್ಸ್ ಪಾರ್ಟಿ ಆಯೋಜಿಸಿತು."
+        }
+    },
+    {
         "id": "001",
         "thumbnail": "/images/news001.jpg",
         "category": "Student Initiatives",

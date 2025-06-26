@@ -167,6 +167,10 @@ const NewsDetail = () => {
                       <p className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-medium text-[18px] lg:text-xl italic ${light ? 'text-gray-700' : 'text-gray-300'}`}>{e.text}</p>
                     </div>
                   </div>
+                ) : e.type === 'addOnImg' ? (
+                  <div className='w-full h-auto mb-6'>
+                    <img src={e.src} alt={e.alt} className='h-full w-full' />
+                  </div>
                 ) : null
 
               )}
