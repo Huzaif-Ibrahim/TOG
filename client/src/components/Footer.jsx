@@ -3,7 +3,7 @@ import { GlobalContext } from '../context/Context'
 
 const Footer = () => {
 
-    const { light } = useContext(GlobalContext)
+    const { light } = useContext(GlobalContext) 
 
     return (
         <footer className={`py-6 text-center ${light ? 'bg-gray-100 text-gray-800' : 'bg-[#1A1A1A] text-gray-300'}`}>
