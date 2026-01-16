@@ -28,5 +28,20 @@
             "en": "A CSE student launches a website to share college news in English and Kannada.",
             "kn": "ಕಾಲೇಜು ಸುದ್ದಿಗಾಗಿ ವಿದ್ಯಾರ್ಥಿಯೊಬ್ಬರು ಇಂಗ್ಲಿಷ್ ಮತ್ತು ಕನ್ನಡದಲ್ಲಿರುವ ವೆಬ್‌ಸೈಟ್ ಪ್ರಾರಂಭಿಸಿದ್ದಾರೆ."
         }
+    },
+    {
+        "id": "003",
+        "thumbnail": "/images/news001.jpg",
+        "category": "Student Initiatives",
+        "date": "January 16, 2025",
+        "authorId": "huzaif",
+        "title": {
+            "en": "When Teaching Fails: How Poor Academic Environments Harm Students",
+            "kn": "ಕಾಲೇಜು ಸುದ್ದಿಗಳಿಗೆ ಡಿಪ್ಲೊಮಾ ವಿದ್ಯಾರ್ಥಿಯಿಂದ ಹೊಸ ವೆಬ್‌ಸೈಟ್"
+        },
+        "description": {
+            "en": "Education is meant to guide, inspire, and shape students into capable and confident individuals. However, in many colleges, students face an environment where learning becomes difficult—not because of the syllabus, but because of how teaching and institutional culture function.",
+            "kn": "ಕಾಲೇಜು ಸುದ್ದಿಗಾಗಿ ವಿದ್ಯಾರ್ಥಿಯೊಬ್ಬರು ಇಂಗ್ಲಿಷ್ ಮತ್ತು ಕನ್ನಡದಲ್ಲಿರುವ ವೆಬ್‌ಸೈಟ್ ಪ್ರಾರಂಭಿಸಿದ್ದಾರೆ."
+        }
     }
 ]
