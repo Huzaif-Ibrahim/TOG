@@ -10,7 +10,7 @@ const Footer = () => {
             <p className="text-sm">This platform is made by Huzaif Ibrahim.</p>
 
             <div className="flex justify-center items-center h-fit mt-2 lg:mt-6 gap-2">
-                <a href="https://github.com/Huzaif-Ibrahim/TOG" 
+                <a href="https://github.com/Huzaif-Ibrahim" 
                 className={`rounded-full border p-2 h-fit w-fit ${light ? 'border-neutral-300 active:bg-neutral-300' : 'border-neutral-600 active:bg-neutral-600'} transition-all duration-500 `}
                 
                 >
