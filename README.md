@@ -16,18 +16,6 @@ TOG is a platform for sharing knowledge and News. The project aims to provide:
 
 ---
 
-## Project Structure
-
-TOG/
-├── client/ # React frontend
-│ ├── src/
-│ ├── public/
-│ └── package.json
-├── server/ # Backend (in progress)
-└── README.md
-
----
-
 ## Features (Frontend)
 
 - Interactive social science articles  
