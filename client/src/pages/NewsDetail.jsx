@@ -162,12 +162,18 @@ const NewsDetail = () => {
 
                     <p className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-medium text-[18px] lg:text-xl ${light ? 'text-black' : 'text-white'}`} key={i}>{e}</p>
 
-                  ) :
+                  ) : 
                   e.type === 'description1' ? (
 
                     <p className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-medium text-[18px] lg:text-xl mt-2 ${light ? 'text-black' : 'text-white'}`} key={i}>{e}</p>
 
-                  ) : e.type === 'quote' ? (
+                  ) :
+                  e.type === 'conclusion' ? (
+
+                    <p className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-semibold text-[18px] lg:text-xl ${light ? 'text-black' : 'text-white'}`} key={i}>{e}</p>
+
+                  )
+                  :e.type === 'quote' ? (
                     <div key={i} className='flex flex-col mb-6'>
                       <p className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-medium text-[18px] lg:text-xl ${light ? 'text-black' : 'text-white'}`}>{e.heading}</p>
 
