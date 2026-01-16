@@ -2,7 +2,7 @@
     {
         "id": "003",
         "thumbnail": "/images/003/1.jpg",
-        "category": "Event",
+        "category": "Education",
         "department": "CSE",
         "date": "June 26, 2025",
         "authorId": "huzaif",
@@ -17,70 +17,86 @@
         "content": {
             "en": [
                 {
+                    "type":"headingAndDescription",
                     "heading":"Ineffective Teaching Methods",
                     "description":"One of the most common problems students face is poor explanation of concepts. Classes often move forward without ensuring that students have understood the basics. Explanations are unclear, incomplete, or rushed, leaving students confused and disengaged. Learning becomes an exercise in memorization rather than understanding.",
                     "description1":"In some cases, teachers focus more on questioning students than on actually teaching the material. Questions are asked even before concepts are properly explained. This not only discourages students from participating but also creates fear and anxiety in the classroom."
                 },
                 {
+                    "type":"headingAndDescription",
                     "heading":"Lack of Classroom Management",
                     "description":"Effective teaching is not just about knowledge; it is also about managing the classroom. When teachers fail to maintain a balanced and respectful environment, classes become stressful rather than productive. Some classrooms suffer from poor discipline control, while others feel overly authoritarian.",
                     "description1":"Targeting individual students repeatedly during questioning can make students feel singled out and humiliated. On the other hand, completely ignoring students after that—whether they are present, absent, or struggling—shows a lack of responsibility and care."
                 },{
+                    "type":"headingAndDescription",
                     "heading":"Communication Barriers",
                     "description":"Communication plays a crucial role in teaching. When teachers speak too fast or fail to adjust their pace to students’ understanding levels, learning breaks down. Students may hear the words, but comprehension is lost. Over time, this creates a gap between teachers and students, where asking doubts feels pointless."
                 },{
+                    "type":"headingAndDescription",
                     "heading":"Poor Teacher–Student Relationships",
                     "description":"A healthy teacher–student relationship is built on respect, patience, and guidance. Unfortunately, in some environments, interactions are dominated by scolding rather than teaching. Excessive use of harsh or inappropriate language—even without physical punishment—creates a toxic atmosphere. Fear replaces curiosity, and silence replaces questions.",
                     "description1":"An ego-driven approach to teaching, where authority is valued more than learning, damages trust. Knowledge should empower students, not be used as a tool to assert dominance."
                 },{
+                    "type":"headingAndDescription",
                     "heading":"Institutional Neglect of Basic Facilities",
                     "description":"Learning does not happen only inside classrooms. Basic facilities such as clean drinking water, proper seating areas, and spaces to eat are essential for students’ well-being. When these basic needs are ignored, students feel undervalued and exhausted, which directly affects their academic performance."
                 },{
+                    "type":"headingAndDescription",
                     "heading":"Attendance Pressure Over Learning",
                     "description":"In some colleges, attendance becomes a tool of control rather than a measure of participation. Threats of failure or academic punishment based solely on attendance create unnecessary stress. Even sincere and capable students can suffer in such environments, gradually losing motivation and confidence."
                 },{
+                    "type":"headingAndDescription",
                     "heading":"The Long-Term Impact on Students",
                     "description":"A poor academic environment does more than affect grades—it affects mental health, self-esteem, and interest in learning. Even good students can perform poorly when surrounded by constant pressure, fear, and negativity. Instead of nurturing potential, such environments slowly weaken it."
                 },{
+                    "type":"headingAndConclusion",
                     "heading":"Conclusion",
                     "conclusion":"Education should be about growth, understanding, and mentorship. When teaching quality is low, communication is weak, and institutional support is lacking, students suffer—not because they are incapable, but because the system fails them. Improving education requires not just better curricula, but also better teaching practices, healthier environments, and a genuine respect for students as learners."
                 }
             ],
             "kn": [
                 {
+                    "type":"headingAndDescription",
                     "heading":"ಅಪ್ರಭಾವಿ ಬೋಧನಾ ವಿಧಾನಗಳು",
                     "description":"ವಿದ್ಯಾರ್ಥಿಗಳು ಎದುರಿಸುವ ಸಾಮಾನ್ಯ ಸಮಸ್ಯೆಗಳಲ್ಲೊಂದು ಅಸಮರ್ಪಕವಾದ ವಿವರಣೆ. ಪಾಠಗಳನ್ನು ವಿದ್ಯಾರ್ಥಿಗಳು ಮೂಲಭೂತ ಅಂಶಗಳನ್ನು ಅರ್ಥಮಾಡಿಕೊಂಡಿದಾರೆಯೇ ಎಂಬುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳದೆ ಮುಂದುವರಿಸಲಾಗುತ್ತದೆ. ವಿವರಣೆಗಳು ಅಸ್ಪಷ್ಟವಾಗಿರುತ್ತವೆ, ಅಪೂರ್ಣವಾಗಿರುತ್ತವೆ ಅಥವಾ ಅತೀವ ವೇಗವಾಗಿರುತ್ತವೆ. ಇದರಿಂದ ವಿದ್ಯಾರ್ಥಿಗಳು ಗೊಂದಲಕ್ಕೀಡಾಗಿ ಆಸಕ್ತಿಯನ್ನು ಕಳೆದುಕೊಳ್ಳುತ್ತಾರೆ. ಕಲಿಕೆ ಅರ್ಥಮಾಡಿಕೊಳ್ಳುವ ಪ್ರಕ್ರಿಯೆಯಾಗಿ ಅಲ್ಲ, ಕೇವಲ ಮರೆಮಾಡುವ ಅಭ್ಯಾಸವಾಗಿ ಪರಿವರ್ತಿತವಾಗುತ್ತದೆ.",
                     "description1":"ಕೆಲವು ಸಂದರ್ಭಗಳಲ್ಲಿ, ಶಿಕ್ಷಕರು ವಿಷಯವನ್ನು ಬೋಧಿಸುವುದಕ್ಕಿಂತ ವಿದ್ಯಾರ್ಥಿಗಳನ್ನು ಪ್ರಶ್ನಿಸುವುದರ ಮೇಲೆಯೇ ಹೆಚ್ಚಿನ ಗಮನ ಹರಿಸುತ್ತಾರೆ. ವಿಷಯವನ್ನು ಸರಿಯಾಗಿ ವಿವರಿಸುವ ಮೊದಲುಲೇ ಪ್ರಶ್ನೆಗಳನ್ನು ಕೇಳಲಾಗುತ್ತದೆ. ಇದರಿಂದ ವಿದ್ಯಾರ್ಥಿಗಳಲ್ಲಿ ಭಾಗವಹಿಸುವ ಆಸಕ್ತಿ ಕಡಿಮೆಯಾಗುತ್ತದೆ ಮತ್ತು ತರಗತಿಯಲ್ಲಿ ಭಯ ಹಾಗೂ ಆತಂಕ ವಾತಾವರಣ ಉಂಟಾಗುತ್ತದೆ."
                 },
                 {
+                    "type":"headingAndDescription",
                     "heading":"ತರಗತಿ ನಿರ್ವಹಣೆಯ ಕೊರತೆ",
                     "description":"ಪ್ರಭಾವಿ ಬೋಧನೆ ಎಂದರೆ ಕೇವಲ ಜ್ಞಾನವಷ್ಟೇ ಅಲ್ಲ; ತರಗತಿಯನ್ನು ಸಮತೋಲನದಿಂದ ಮತ್ತು ಗೌರವಪೂರ್ಣವಾಗಿ ನಿರ್ವಹಿಸುವುದೂ ಅಗತ್ಯ. ಶಿಕ್ಷಕರು ಈ ಸಮತೋಲನವನ್ನು ಕಾಯ್ದುಕೊಳ್ಳದಾಗ, ತರಗತಿಗಳು ಫಲಪ್ರದವಾಗುವುದಕ್ಕಿಂತ ಒತ್ತಡಕಾರಿಯಾಗುತ್ತವೆ. ಕೆಲವು ತರಗತಿಗಳಲ್ಲಿ ಶಿಸ್ತು ನಿಯಂತ್ರಣ ಕೊರತೆಯಿದೆ, ಇತರ ಕೆಲವು ತರಗತಿಗಳು ಅತಿಯಾಗಿ ಅಧಿಕಾರಾಧಾರಿತವಾಗಿರುತ್ತವೆ.",
                     "description1":"ಒಬ್ಬೇ ವಿದ್ಯಾರ್ಥಿಯನ್ನು ಮರುಮರು ಪ್ರಶ್ನೆ ಮಾಡುವುದರಿಂದ ಆ ವಿದ್ಯಾರ್ಥಿಗೆ ಗುರಿಯಾಗುತ್ತಿರುವಂತೆ ಅನಿಸುತ್ತದೆ ಮತ್ತು ಅವಮಾನ ಅನುಭವವಾಗುತ್ತದೆ. ಮತ್ತೊಂದೆಡೆ, ನಂತರ ಆ ವಿದ್ಯಾರ್ಥಿಯು ತರಗತಿಯಲ್ಲಿ ಇದ್ದಾನೆಯೇ ಇಲ್ಲವೇ ಎಂಬುದನ್ನೂ ಗಮನಿಸದೇ ಬಿಡುವುದು ಜವಾಬ್ದಾರಿಯ ಕೊರತೆಯನ್ನು ತೋರಿಸುತ್ತದೆ."
                 },{
+                    "type":"headingAndDescription",
                     "heading":"ಸಂವಹನದ ಅಡೆತಡೆಗಳು",
                     "description":"ಬೋಧನೆಯಲ್ಲಿ ಸಂವಹನ ಪ್ರಮುಖ ಪಾತ್ರ ವಹಿಸುತ್ತದೆ. ಶಿಕ್ಷಕರು ಅತೀವ ವೇಗವಾಗಿ ಮಾತನಾಡಿದಾಗ ಅಥವಾ ವಿದ್ಯಾರ್ಥಿಗಳ ಅರ್ಥಮಾಡಿಕೊಳ್ಳುವ ಮಟ್ಟಕ್ಕೆ ತಕ್ಕಂತೆ ವೇಗವನ್ನು ಹೊಂದಿಸದಾಗ ಕಲಿಕೆಯ ಪ್ರಕ್ರಿಯೆ ಕುಸಿಯುತ್ತದೆ. ವಿದ್ಯಾರ್ಥಿಗಳು ಮಾತುಗಳನ್ನು ಕೇಳಬಹುದು, ಆದರೆ ಅರ್ಥಮಾಡಿಕೊಳ್ಳಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ. ಕಾಲಕ್ರಮೇಣ, ಇದರಿಂದ ಶಿಕ್ಷಕರು ಮತ್ತು ವಿದ್ಯಾರ್ಥಿಗಳ ನಡುವೆ ಅಂತರ ಉಂಟಾಗುತ್ತದೆ ಮತ್ತು ಸಂಶಯಗಳನ್ನು ಕೇಳುವುದು ಅನರ್ಥಕವೆಂದು ಅನಿಸತೊಡಗುತ್ತದೆ."
                 },{
+                    "type":"headingAndDescription",
                     "heading":"ಶಿಕ್ಷಕ–ವಿದ್ಯಾರ್ಥಿ ಸಂಬಂಧಗಳ ದುರ್ಬಲತೆ",
                     "description":"ಆರೋಗ್ಯಕರ ಶಿಕ್ಷಕ–ವಿದ್ಯಾರ್ಥಿ ಸಂಬಂಧವು ಗೌರವ, ಸಹನೆ ಮತ್ತು ಮಾರ್ಗದರ್ಶನದ ಮೇಲೆ ನಿರ್ಮಿತವಾಗಿರುತ್ತದೆ. ದುರದೃಷ್ಟವಶಾತ್, ಕೆಲವು ಶೈಕ್ಷಣಿಕ ವಾತಾವರಣಗಳಲ್ಲಿ ಬೋಧನೆಯಿಗಿಂತ ಗದರಿಸುವಿಕೆಯೇ ಹೆಚ್ಚು ಕಾಣಿಸುತ್ತದೆ. ಅತಿಯಾದ ಕಠಿಣ ಅಥವಾ ಅಸಮಂಜಸ ಭಾಷೆಯ ಬಳಕೆ—ಶಾರೀರಿಕ ಶಿಕ್ಷೆಯಿಲ್ಲದಿದ್ದರೂ ಸಹ—ವಿಷಕಾರಿ ವಾತಾವರಣವನ್ನು ನಿರ್ಮಿಸುತ್ತದೆ. ಕುತೂಹಲದ ಬದಲು ಭಯ, ಪ್ರಶ್ನೆಗಳ ಬದಲು ಮೌನ ಆವರಿಸುತ್ತದೆ.",
                     "description1":"ಜ್ಞಾನಕ್ಕಿಂತ ಅಧಿಕಾರಕ್ಕೆ ಹೆಚ್ಚಿನ ಮಹತ್ವ ನೀಡುವ ಅಹಂಕಾರಪೂರ್ಣ ಬೋಧನಾ ದೃಷ್ಟಿಕೋನವು ನಂಬಿಕೆಯನ್ನು ಹಾಳುಮಾಡುತ್ತದೆ. ಜ್ಞಾನವು ವಿದ್ಯಾರ್ಥಿಗಳನ್ನು ಶಕ್ತಿಮಂತಗೊಳಿಸಬೇಕೇ ಹೊರತು, ಆಧಿಪತ್ಯ ಸಾಧಿಸಲು ಬಳಸಬಾರದು."
                 },{
+                    "type":"headingAndDescription",
                     "heading":"ಮೂಲಭೂತ ಸೌಲಭ್ಯಗಳತ್ತ ಸಂಸ್ಥೆಯ ನಿರ್ಲಕ್ಷ್ಯ",
                     "description":"ಕಲಿಕೆ ತರಗತಿಯೊಳಗೆ ಮಾತ್ರ ನಡೆಯುವುದಿಲ್ಲ. ಶುದ್ಧ ಕುಡಿಯುವ ನೀರು, ಸರಿಯಾದ ಆಸನ ವ್ಯವಸ್ಥೆ ಮತ್ತು ಊಟ ಮಾಡಲು ಸ್ಥಳಗಳಂತಹ ಮೂಲಭೂತ ಸೌಲಭ್ಯಗಳು ವಿದ್ಯಾರ್ಥಿಗಳ ಕಲ್ಯಾಣಕ್ಕೆ ಅತ್ಯಂತ ಅಗತ್ಯ. ಇವುಗಳನ್ನು ನಿರ್ಲಕ್ಷಿಸಿದಾಗ, ವಿದ್ಯಾರ್ಥಿಗಳು ಮೌಲ್ಯಹೀನರಾಗಿದ್ದಾರೆ ಎಂಬ ಭಾವನೆ ಉಂಟಾಗುತ್ತದೆ ಮತ್ತು ದೈಹಿಕ–ಮಾನಸಿಕ ದಣಿವು ಹೆಚ್ಚುತ್ತದೆ. ಇದು ನೇರವಾಗಿ ಅವರ ಶೈಕ್ಷಣಿಕ ಸಾಧನೆಗೆ ಪರಿಣಾಮ ಬೀರುತ್ತದೆ."
                 },{
+                    "type":"headingAndDescription",
                     "heading":"ಕಲಿಕೆಗೆ ಬದಲು ಹಾಜರಾತಿಯ ಒತ್ತಡ",
                     "description":"ಕೆಲವು ಕಾಲೇಜುಗಳಲ್ಲಿ ಹಾಜರಾತಿಯನ್ನು ಪಾಲ್ಗೊಳ್ಳುವಿಕೆಯ ಮಾಪಕವಾಗಿ ಅಲ್ಲ, ನಿಯಂತ್ರಣದ ಸಾಧನವಾಗಿ ಬಳಸಲಾಗುತ್ತದೆ. ಹಾಜರಾತಿಯ ಆಧಾರದ ಮೇಲೆ ಅಸಫಲತೆಯ ಬೆದರಿಕೆಗಳು ಅಥವಾ ಶೈಕ್ಷಣಿಕ ಶಿಕ್ಷೆಗಳು ಅನಗತ್ಯ ಒತ್ತಡವನ್ನು ಉಂಟುಮಾಡುತ್ತವೆ. ಪ್ರಾಮಾಣಿಕ ಮತ್ತು ಸಾಮರ್ಥ್ಯಯುತ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೂ ಇಂತಹ ವಾತಾವರಣದಲ್ಲಿ ಹಾನಿಯಾಗಬಹುದು; ಕ್ರಮೇಣ ಪ್ರೇರಣೆ ಮತ್ತು ಆತ್ಮವಿಶ್ವಾಸ ಕುಗ್ಗುತ್ತದೆ."
                 },{
+                    "type":"headingAndDescription",
                     "heading":"ವಿದ್ಯಾರ್ಥಿಗಳ ಮೇಲೆ ದೀರ್ಘಕಾಲಿಕ ಪರಿಣಾಮ",
                     "description":"ದುರ್ಬಲ ಶೈಕ್ಷಣಿಕ ವಾತಾವರಣವು ಅಂಕಗಳಿಗೆ ಮಾತ್ರವಲ್ಲ, ಮಾನಸಿಕ ಆರೋಗ್ಯ, ಆತ್ಮಗೌರವ ಮತ್ತು ಕಲಿಕೆಯ ಆಸಕ್ತಿಗೂ ಹಾನಿ ಮಾಡುತ್ತದೆ. ನಿರಂತರ ಒತ್ತಡ, ಭಯ ಮತ್ತು ನಕಾರಾತ್ಮಕತೆಯ ನಡುವೆ ಇದ್ದಾಗ, ಉತ್ತಮ ವಿದ್ಯಾರ್ಥಿಗಳೂ ದುರ್ಫಲಿತಾಂಶಗಳನ್ನು ಎದುರಿಸಬಹುದು. ಸಾಮರ್ಥ್ಯವನ್ನು ಬೆಳೆಸುವ ಬದಲು, ಇಂತಹ ವಾತಾವರಣಗಳು ಅದನ್ನು ನಿಧಾನವಾಗಿ ದುರ್ಬಲಗೊಳಿಸುತ್ತವೆ."
                 },{
+                    "type":"headingAndConclusion",
                     "heading":"ಸಮಾರೋಪ",
                     "conclusion":"ಶಿಕ್ಷಣವು ಬೆಳವಣಿಗೆ, ಅರ್ಥಗಮನ ಮತ್ತು ಮಾರ್ಗದರ್ಶನದ ಬಗ್ಗೆ ಇರಬೇಕು. ಬೋಧನೆಯ ಗುಣಮಟ್ಟ ಕಡಿಮೆಯಾಗಿರುವಾಗ, ಸಂವಹನ ದುರ್ಬಲವಾಗಿರುವಾಗ ಮತ್ತು ಸಂಸ್ಥಾತ್ಮಕ ಬೆಂಬಲ ಕೊರತೆಯಾಗಿರುವಾಗ, ವಿದ್ಯಾರ್ಥಿಗಳು ಬಳಲುತ್ತಾರೆ—ಅವರು ಅಸಮರ್ಥರಾಗಿರುವುದರಿಂದಲ್ಲ, ವ್ಯವಸ್ಥೆಯೇ ಅವರನ್ನು ವಿಫಲಗೊಳಿಸುವುದರಿಂದ. ಶಿಕ್ಷಣವನ್ನು ಸುಧಾರಿಸಲು ಉತ್ತಮ ಪಠ್ಯಕ್ರಮ ಮಾತ್ರವಲ್ಲ, ಉತ್ತಮ ಬೋಧನಾ ವಿಧಾನಗಳು, ಆರೋಗ್ಯಕರ ವಾತಾವರಣಗಳು ಮತ್ತು ವಿದ್ಯಾರ್ಥಿಗಳನ್ನು ಕಲಿಯುವವರಾಗಿ ಗೌರವಿಸುವ ನಿಜವಾದ ಮನೋಭಾವವೂ ಅಗತ್ಯ."
                 }
             ]
         },
         "aboutImg": {
-            "en": "Faculty members inaugurating the CSE Freshers’ Party by watering a plant in the college functional hall.",
-            "kn": "ಸಿಎಸ್ಇ ಫ್ರೆಶರ್ಸ್ ಪಾರ್ಟಿಗೆ ಶಿಕ್ಷಣವರು ಕಾಲೇಜಿನ ಫಂಕ್ಷನಲ್ ಹಾಲ್‌ನಲ್ಲಿ ಗಿಡಕ್ಕೆ ನೀರಿಹಾಕುವ ಮೂಲಕ ಆರಂಭಿಸಿದ ದೃಶ್ಯ."
+            "en": "An illustration symbolizing the education system as a factory",
+            "kn": "ಶಿಕ್ಷಣ ವ್ಯವಸ್ಥೆಯನ್ನು ಕಾರ್ಖಾನೆಯಾಗಿ ಸಂಕೇತಿಸುವ ವಿವರಣೆ."
         }
     }
 ]
