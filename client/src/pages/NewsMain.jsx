@@ -89,10 +89,10 @@ const NewsMain = () => {
   return (
     <>
         <Navbar />
-        <section className={`px-4 lg:px-0 pt-20 md:pt-24 pb-8 min-h-screen ${light ? 'bg-white' : 'bg-[#121212]'}`}>
+        <section className={`px-4 lg:px-0 pt-20 md:pt-24 pb-32 min-h-screen ${light ? 'bg-white' : 'bg-[#121212]'}`}>
           <div className="container max-w-7xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-6">
-              {news.slice(0,contentVisible).map((elem) => {
+              {news.slice(0,contentVisible).reverse().map((elem) => {
                 return (
                   <Card 
                   navigate={navigate}

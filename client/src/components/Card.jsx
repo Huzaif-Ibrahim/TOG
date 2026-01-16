@@ -6,7 +6,7 @@ const Card = ({ id, thumbnail, title, description, date, author, category, navig
     const { light, lan } = useContext(GlobalContext)
 
     return (
-        <div className={`rounded-lg h-full border shadow-md hover:shadow-lg transition-shadow duration-300 ${light ? 'bg-white text-black border-gray-200' : 'bg-[#1E1E1E] text-white border-[#2A2A2A]'}`}
+        <div className={`cursor-pointer rounded-lg h-full border shadow-md hover:shadow-lg transition-shadow duration-300 ${light ? 'bg-white text-black border-gray-200' : 'bg-[#1E1E1E] text-white border-[#2A2A2A]'}`}
             onClick={() => navigate(`/news/${id}`)}
         >
             <div className="container flex flex-col gap-4 p-4 h-full w-full">
@@ -21,7 +21,7 @@ const Card = ({ id, thumbnail, title, description, date, author, category, navig
                 <div className="info flex flex-col gap-2">
 
                     <div className="flex flex-col gap-1">
-                        <span className="inline-block text-xs font-semibold text-blue-700 bg-blue-100 px-2 py-0.5 rounded-full w-fit">
+                        <span className={`inline-block text-xs font-semibold text-blue-700 ${light ? 'bg-blue-100' : 'bg-blue-200'} px-2 py-0.5 rounded-full w-fit`}>
                             {category}
                         </span>
                         <p className="text-xs text-gray-500">{date}</p>

@@ -109,13 +109,13 @@ const NewsDetail = () => {
                 {newsItem.category}
               </span>
               <p className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} text-2xl md:text-3xl lg:text-5xl font-semibold ${light ? 'text-gray-900' : 'text-white'} `}>{newsItem.title[lan]}</p>
-              <p className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-medium text-base lg:text-xl ${light ? 'text-gray-700' : 'text-gray-300'}`} >{newsItem.description[lan]}</p>
+              <p className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} mt-2 font-medium text-base lg:text-xl ${light ? 'text-gray-800' : 'text-gray-300'}`} >{newsItem.description[lan]}</p>
             </div>
 
             <div className="author flex justify-between items-center">
               <div className="flex flex-col">
-                <p className={`text-xs text-gray-500`}>by <span className='font-bold'>{newsItem.author[lan]?.name || 'Unknown'}</span></p>
-                <p className="text-xs text-gray-500">{newsItem.date}</p>
+                <p className={`text-xs ${light ? 'text-gray-900' : 'text-white'}`}>by <span className='font-bold'>{newsItem.author[lan]?.name || 'Unknown'}</span></p>
+                <p className={`text-xs ${light ? 'text-gray-900' : 'text-white'}`}>{newsItem.date}</p>
               </div>
 
               <button
@@ -148,48 +148,52 @@ const NewsDetail = () => {
               </div>
 
               {newsItem.aboutImg && (
-                <p className={`${light ? 'text-gray-900' : 'text-white'} text-[10px] leading-4 italic font-light`}>{newsItem.aboutImg[lan]}</p>
+                <p className={`${light ? 'text-gray-900' : 'text-white'} text-sm leading-4 italic font-light`}>{newsItem.aboutImg[lan]}</p>
               )}
             </div>
 
-            <article className="content mt-2">
-              {newsItem.content[lan].map((e, i) =>
-
-                e.type === 'heading' ? (
-                  <h5 className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-semibold text-2xl lg:text-3xl mb-2 mt-6 ${light ? 'text-black' : 'text-white'}`} key={i}>{e}</h5>
-                ) :
-                  e.type === 'description' ? (
-
-                    <p className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-medium text-[18px] lg:text-xl ${light ? 'text-black' : 'text-white'}`} key={i}>{e}</p>
-
-                  ) : 
-                  e.type === 'description1' ? (
-
-                    <p className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-medium text-[18px] lg:text-xl mt-2 ${light ? 'text-black' : 'text-white'}`} key={i}>{e}</p>
-
+            <article className="content">
+              {
+                newsItem.content[lan].map((e, i) => {
+                  return e.type === 'headingAndDescription' ? (
+                    <div key={i}>
+                      <h5 className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-semibold text-xl lg:text-2xl mb-2 mt-6 ${light ? 'text-black' : 'text-white'}`}>{e.heading}</h5>
+                      <p className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-medium text-[18px] lg:text-xl ${light ? 'text-gray-900' : 'text-white'}`}>{e.description}</p>
+                      {
+                        e.description1 && (
+                          <p className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-medium text-[18px] lg:text-xl mt-2 ${light ? 'text-gray-900' : 'text-white'}`}>{e.description1}</p>
+                        )
+                      }
+                    </div>
                   ) :
-                  e.type === 'conclusion' ? (
+                    e.type === 'description' ? (
 
-                    <p className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-semibold text-[18px] lg:text-xl ${light ? 'text-black' : 'text-white'}`} key={i}>{e}</p>
+                      <p className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-medium text-[18px] lg:text-xl ${light ? 'text-gray-900' : 'text-white'}`} key={i}>{e.description}</p>
 
-                  )
-                  :e.type === 'quote' ? (
-                    <div key={i} className='flex flex-col mb-6'>
-                      <p className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-medium text-[18px] lg:text-xl ${light ? 'text-black' : 'text-white'}`}>{e.heading}</p>
+                    ) :
+                      e.type === 'headingAndConclusion' ? (
+                        <div key={i}>
+                          <h5 className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-semibold text-xl lg:text-2xl mb-2 mt-6 ${light ? 'text-black' : 'text-white'}`} >{e.heading}</h5>
+                          <p className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-semibold text-[18px] lg:text-xl ${light ? 'text-gray-900' : 'text-white'}`} >{e.conclusion}</p>
+                        </div>
+                      )
+                        : e.type === 'quote' ? (
+                          <div key={i} className='flex flex-col mb-6'>
+                            <p className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-medium text-[18px] lg:text-xl ${light ? 'text-black' : 'text-white'}`}>{e.heading}</p>
 
-                      <div className='border-l-4 border-blue-500 pl-4 py-1 h-fit'>
-                        <p className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-medium text-[18px] lg:text-xl italic ${light ? 'text-gray-700' : 'text-gray-300'}`}>{e.text}</p>
-                      </div>
-                    </div>
-                  ) : e.type === 'addOnImg' ? (
-                    <div className='w-full h-auto mb-6'>
-                      <img src={e.src} alt={e.alt} className='h-full w-full' />
-                    </div>
-                  ) : null
-              )}
+                            <div className='border-l-4 border-blue-500 pl-4 py-1 h-fit'>
+                              <p className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-medium text-[18px] lg:text-xl italic ${light ? 'text-gray-900' : 'text-white'}`}>{e.text}</p>
+                            </div>
+                          </div>
+                        ) : e.type === 'addOnImg' ? (
+                          <div className='w-full h-auto mb-6' key={i}>
+                            <img src={e.src} alt={e.alt} className='h-full w-full' />
+                          </div>
+                        ) : null
+                })}
             </article>
 
-            <div className="about-user flex justify-center items-center gap-2 pl-4 border-l-4 border-l-neutral-500 mt-4">
+            <div className="about-user flex justify-center items-center gap-2 pl-2 border-l-4 border-l-blue-900 mt-4">
               <img
                 src={newsItem.author?.img || '/images/defaultUserIcon.jpg'}
                 alt={`${newsItem.author?.[lan]?.name || 'Author'}'s Img`}
