@@ -1,13 +1,13 @@
 {
     "huzaif": {
-        "img" : "/images/defaultUserIcon.jpg",
+        "img" : "/images/huzaif.jpg",
         "en": {
             "name": "Huzaif Ibrahim",
-            "about": "Huzaif Ibrahim is a self-learner and CSE student passionate about technology and business. This site is part of his learning journey to simplify knowledge, connect ideas, and share value with curious minds."
+            "about": "Huzaif Ibrahim is a self-learner and CSE student interested in social science. This site reflects his journey of learning and sharing ideas."
         },
         "kn": {
             "name": "ಹುಜಾಫ್ ಇಬ್ರಾಹಿಂ",
-            "about": "ಹುಜೈಫ್ ಇಬ್ರಾಹಿಂ ಅವರು ತಂತ್ರಜ್ಞಾನ ಮತ್ತು ವ್ಯವಹಾರದ ಬಗ್ಗೆ ಆಸಕ್ತಿ ಹೊಂದಿರುವ ಸ್ವಯಂ-ಅಧ್ಯಯನ ಮಾಡುವ ಸಿಎಸ್ಇ ವಿದ್ಯಾರ್ಥಿ. ಈ ವೆಬ್‌ಸೈಟ್ ಅವರ ಕಲಿಕಾ ಪ್ರಯಾಣದ ಒಂದು ಭಾಗವಾಗಿದ್ದು, ಜ್ಞಾನವನ್ನು ಸರಳಗೊಳಿಸಲು, ಆಲೋಚನೆಗಳನ್ನು ಸಂಪರ್ಕಿಸಲು ಮತ್ತು ಕುತೂಹಲಭರಿತ ಮನಸ್ಸುಗಳೊಂದಿಗೆ ಮೌಲ್ಯ ಹಂಚಿಕೊಳ್ಳಲು ನಿರ್ಮಿಸಲಾಗಿದೆ."
+            "about": "ಹುಜೈಫ್ ಇಬ್ರಾಹಿಂ ಸ್ವಯಂ ಅಧ್ಯಯನ ಮಾಡುವ ಸಿಎಸ್‌ಇ ವಿದ್ಯಾರ್ಥಿ ಹಾಗೂ ಸಾಮಾಜಿಕ ವಿಜ್ಞಾನದಲ್ಲಿ ಆಸಕ್ತಿ ಹೊಂದಿರುವವರು. ಈ ತಾಣವು ಅವರ ಕಲಿಕೆ ಮತ್ತು ಆಲೋಚನೆಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳುವ ಪ್ರಯಾಣವನ್ನು ಪ್ರತಿಬಿಂಬಿಸುತ್ತದೆ."
         }
     }
 }
