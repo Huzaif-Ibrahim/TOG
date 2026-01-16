@@ -16,30 +16,55 @@
         },
         "content": {
             "en": [
-                "In a remarkable step toward digital transformation on campus, Huzaif Ibrahim, a passionate and self-taught Computer Science Diploma student, has officially launched a brand-new website dedicated to college-related news and updates.",
-                "The platform is designed to serve as a one-stop solution for students, offering timely updates on exam results, placement drives, academic schedules, event announcements, student achievements, and workshops. It also acts as a space to spotlight creative student projects and departmental initiatives.",
+                {
+                    "description" : "In a remarkable step toward digital transformation on campus, Huzaif Ibrahim, a passionate and self-taught Computer Science Diploma student, has officially launched a brand-new website dedicated to college-related news and updates."
+                },
+                {
+                    "description": "The platform is designed to serve as a one-stop solution for students, offering timely updates on exam results, placement drives, academic schedules, event announcements, student achievements, and workshops. It also acts as a space to spotlight creative student projects and departmental initiatives."
+                },
                 {
                     "type": "quote",
                     "heading" : "Huzaif shared his vision behind the project:",
                     "text": "\"I always felt the need for a centralized source for college updates — this site brings everything to one place.\"",
                     "author": "Huzaif Ibrahim"
                 },
-                "A standout feature of the website is its language support, as the content is available in both English and Kannada, ensuring inclusivity for all students across Karnataka. The site has a clean, mobile-friendly interface and is updated regularly to keep students connected to every small or big event.",
-                "The project has received encouraging feedback from peers and faculty, and Huzaif plans to expand it further by adding push notifications, student polls, and department-specific dashboards.",
-                "This initiative not only reflects technical skills but also shows leadership and a genuine desire to improve the student experience — truly inspiring for the entire college community."
+                {
+                    "description":"A standout feature of the website is its language support, as the content is available in both English and Kannada, ensuring inclusivity for all students across Karnataka. The site has a clean, mobile-friendly interface and is updated regularly to keep students connected to every small or big event."
+                },
+                {
+                    "description":"The project has received encouraging feedback from peers and faculty, and Huzaif plans to expand it further by adding push notifications, student polls, and department-specific dashboards."
+                },
+                {
+                    "description":"This initiative not only reflects technical skills but also shows leadership and a genuine desire to improve the student experience — truly inspiring for the entire college community."
+                }
+                
+
             ],
             "kn": [
-                "ಕಾಲೇಜಿನಲ್ಲಿ ಡಿಜಿಟಲ್ ಯುಗದತ್ತ ಮತ್ತೊಂದು ಹೆಜ್ಜೆ ಇಡಲಾಗಿದೆ. ಹುಸೈಫ್ ಇಬ್ರಾಹಿಂ, ಡಿಪ್ಲೊಮಾ ಕಂಪ್ಯೂಟರ್ ಸೈನ್ಸ್ ವಿದ್ಯಾರ್ಥಿ, ಕಾಲೇಜು ಕುರಿತ ಎಲ್ಲ ನವೀಕರಣಗಳಿಗಾಗಿ ಒಂದು ಸಂಪೂರ್ಣ ವೆಬ್‌ಸೈಟ್ ಅನ್ನು ವಿನ್ಯಾಸಗೊಳಿಸಿ ಮತ್ತು ಪ್ರಾರಂಭಿಸಿದ್ದಾರೆ.",
-                "ಈ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಪರೀಕ್ಷಾ ಫಲಿತಾಂಶಗಳು, ಪ್ಲೇಸ್ಮೆಂಟ್ ಮಾಹಿತಿಗಳು, ವರ್ಕ್‌ಶಾಪ್‌ಗಳು, ಕಾರ್ಯಕ್ರಮದ ದಿನಾಂಕಗಳು, ವಿದ್ಯಾರ್ಥಿಗಳ ಸಾಧನೆಗಳು ಮತ್ತು ಇನ್ನೂ ಹೆಚ್ಚಿನ ವಿಷಯಗಳನ್ನು ಒಟ್ಟಾಗಿ ತಲುಪಿಸುವ ಕೆಲಸ ಮಾಡುತ್ತದೆ. ಇದು ವಿದ್ಯಾರ್ಥಿಗಳ ಯೋಜನೆಗಳು ಮತ್ತು ಡಿಪಾರ್ಟ್ಮೆಂಟ್‌ಗಳ ಕ್ರಿಯಾಶೀಲತೆಗೂ ಸ್ಥಳ ಒದಗಿಸುತ್ತದೆ.",
+                {
+                    "description":"ಕಾಲೇಜಿನಲ್ಲಿ ಡಿಜಿಟಲ್ ಯುಗದತ್ತ ಮತ್ತೊಂದು ಹೆಜ್ಜೆ ಇಡಲಾಗಿದೆ. ಹುಸೈಫ್ ಇಬ್ರಾಹಿಂ, ಡಿಪ್ಲೊಮಾ ಕಂಪ್ಯೂಟರ್ ಸೈನ್ಸ್ ವಿದ್ಯಾರ್ಥಿ, ಕಾಲೇಜು ಕುರಿತ ಎಲ್ಲ ನವೀಕರಣಗಳಿಗಾಗಿ ಒಂದು ಸಂಪೂರ್ಣ ವೆಬ್‌ಸೈಟ್ ಅನ್ನು ವಿನ್ಯಾಸಗೊಳಿಸಿ ಮತ್ತು ಪ್ರಾರಂಭಿಸಿದ್ದಾರೆ."
+                },
+                {
+                    "description":"ಈ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಪರೀಕ್ಷಾ ಫಲಿತಾಂಶಗಳು, ಪ್ಲೇಸ್ಮೆಂಟ್ ಮಾಹಿತಿಗಳು, ವರ್ಕ್‌ಶಾಪ್‌ಗಳು, ಕಾರ್ಯಕ್ರಮದ ದಿನಾಂಕಗಳು, ವಿದ್ಯಾರ್ಥಿಗಳ ಸಾಧನೆಗಳು ಮತ್ತು ಇನ್ನೂ ಹೆಚ್ಚಿನ ವಿಷಯಗಳನ್ನು ಒಟ್ಟಾಗಿ ತಲುಪಿಸುವ ಕೆಲಸ ಮಾಡುತ್ತದೆ. ಇದು ವಿದ್ಯಾರ್ಥಿಗಳ ಯೋಜನೆಗಳು ಮತ್ತು ಡಿಪಾರ್ಟ್ಮೆಂಟ್‌ಗಳ ಕ್ರಿಯಾಶೀಲತೆಗೂ ಸ್ಥಳ ಒದಗಿಸುತ್ತದೆ."
+                },
                 {
                     "type": "quote",
                     "heading" : "ಹುಜಾಫ್ ತಮ್ಮ ಉದ್ದೇಶವನ್ನು ಹಂಚಿಕೊಂಡು ಹೇಳಿದರು:",
                     "text": "\"ನಾನು ಯಾವಾಗಲೂ ಕಾಲೇಜಿನ ನವೀಕರಣಗಳಿಗಾಗಿ ಒಂದು ಕೇಂದ್ರಿತ ತಾಣದ ಅಗತ್ಯವಿದೆ ಎಂದು ಭಾವಿಸುತ್ತಿದ್ದೆ — ಈ ತಾಣ ಎಲ್ಲವನ್ನೂ ಒಂದು ಕಡೆ ಒಯ್ಯುತ್ತದೆ.\"",
                     "author": "ಹುಸೈಫ್ ಇಬ್ರಾಹಿಂ"
                 },
-                "ಈ ತಾಣದ ವಿಶೇಷತೆ ಎಂದರೆ, ಇಂಗ್ಲಿಷ್ ಮತ್ತು ಕನ್ನಡ ಎರಡೂ ಭಾಷೆಗಳಲ್ಲಿ ಲಭ್ಯವಿರುವದು. ಇದರಿಂದ ಎಲ್ಲ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಎಳೆಯ ಹಂತದಲ್ಲಿಯೇ ಮಾಹಿತಿ ತಲುಪಲು ಸಾಧ್ಯವಾಗುತ್ತದೆ. ತಾಣವು ಮೊಬೈಲ್ ಸ್ನೇಹಿ ಮತ್ತು ನಿತ್ಯ ನವೀಕರಿಸಲಾಗುತ್ತದೆ.",
-                "ಇದೇ ಆರಂಭವಷ್ಟೆ. ಹುಸೈಫ್ ತಾವು ಮುಂದಿನ ದಿನಗಳಲ್ಲಿ ತಾಣದಲ್ಲಿ notifications, ಪ್ರಶ್ನೋತ್ತರಗಳು, ಡಿಪಾರ್ಟ್ಮೆಂಟ್-ವೈಯಕ್ತಿಕ ಪುಟಗಳು ಸೇರಿಸಲು ಯೋಜಿಸುತ್ತಿದ್ದಾರೆ.",
-                "ಈ ಆರಂಭ ಮಾತ್ರ ತಾಂತ್ರಿಕ ಕೌಶಲ್ಯವಲ್ಲ, ಇದು ನಾಯಕರತ್ವದ, ಪ್ರಯತ್ನದ ಮತ್ತು ದೈರ್ಯದ ಉದಾಹರಣೆಯಾಗಿದೆ — ನಮ್ಮ ಕಾಲೇಜಿನ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಪ್ರೇರಣೆಯಾಗಿದೆ."
+                {
+                    "description":"ಈ ತಾಣದ ವಿಶೇಷತೆ ಎಂದರೆ, ಇಂಗ್ಲಿಷ್ ಮತ್ತು ಕನ್ನಡ ಎರಡೂ ಭಾಷೆಗಳಲ್ಲಿ ಲಭ್ಯವಿರುವದು. ಇದರಿಂದ ಎಲ್ಲ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಎಳೆಯ ಹಂತದಲ್ಲಿಯೇ ಮಾಹಿತಿ ತಲುಪಲು ಸಾಧ್ಯವಾಗುತ್ತದೆ. ತಾಣವು ಮೊಬೈಲ್ ಸ್ನೇಹಿ ಮತ್ತು ನಿತ್ಯ ನವೀಕರಿಸಲಾಗುತ್ತದೆ."
+                },
+                {
+                    "description":"ಈ ತಾಣದ ವಿಶೇಷತೆ ಎಂದರೆ, ಇಂಗ್ಲಿಷ್ ಮತ್ತು ಕನ್ನಡ ಎರಡೂ ಭಾಷೆಗಳಲ್ಲಿ ಲಭ್ಯವಿರುವದು. ಇದರಿಂದ ಎಲ್ಲ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಎಳೆಯ ಹಂತದಲ್ಲಿಯೇ ಮಾಹಿತಿ ತಲುಪಲು ಸಾಧ್ಯವಾಗುತ್ತದೆ. ತಾಣವು ಮೊಬೈಲ್ ಸ್ನೇಹಿ ಮತ್ತು ನಿತ್ಯ ನವೀಕರಿಸಲಾಗುತ್ತದೆ."
+                },
+                {
+                    "description":"ಇದೇ ಆರಂಭವಷ್ಟೆ. ಹುಸೈಫ್ ತಾವು ಮುಂದಿನ ದಿನಗಳಲ್ಲಿ ತಾಣದಲ್ಲಿ notifications, ಪ್ರಶ್ನೋತ್ತರಗಳು, ಡಿಪಾರ್ಟ್ಮೆಂಟ್-ವೈಯಕ್ತಿಕ ಪುಟಗಳು ಸೇರಿಸಲು ಯೋಜಿಸುತ್ತಿದ್ದಾರೆ."
+                },
+                {
+                    "description":"ಈ ಆರಂಭ ಮಾತ್ರ ತಾಂತ್ರಿಕ ಕೌಶಲ್ಯವಲ್ಲ, ಇದು ನಾಯಕರತ್ವದ, ಪ್ರಯತ್ನದ ಮತ್ತು ದೈರ್ಯದ ಉದಾಹರಣೆಯಾಗಿದೆ — ನಮ್ಮ ಕಾಲೇಜಿನ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಪ್ರೇರಣೆಯಾಗಿದೆ."
+                }
             ]
         },
         "aboutImg": {
