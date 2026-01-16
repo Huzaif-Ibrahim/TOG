@@ -1,0 +1,82 @@
+[
+    {
+        "id": "002",
+        "thumbnail": "/images/002/1.jpg",
+        "category": "Event",
+        "department": "CSE",
+        "date": "June 26, 2025",
+        "authorId": "huzaif",
+        "title": {
+            "en": "When Teaching Fails: How Poor Academic Environments Harm Students",
+            "kn": "ಸಿಎಸ್ಇ ವಿಭಾಗದಲ್ಲಿ ಹೊಸಬರಿಗೆ ಅದ್ದೂರಿ ಸ್ವಾಗತ ಸಮಾರಂಭ"
+        },
+        "description": {
+            "en": "Education is meant to guide, inspire, and shape students into capable and confident individuals. However, in many colleges, students face an environment where learning becomes difficult—not because of the syllabus, but because of how teaching and institutional culture function.",
+            "kn": " ಜೂನ್ 25, 2025 ರಂದು ಸಿಎಸ್ಇ ವಿಭಾಗವು ಹೊಸ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಫ್ರೆಶರ್ಸ್ ಪಾರ್ಟಿ ಆಯೋಜಿಸಿತು."
+        },
+        "content": {
+            "en": [
+                {
+                    "heading":"Ineffective Teaching Methods",
+                    "description":"One of the most common problems students face is poor explanation of concepts. Classes often move forward without ensuring that students have understood the basics. Explanations are unclear, incomplete, or rushed, leaving students confused and disengaged. Learning becomes an exercise in memorization rather than understanding.",
+                    "description1":"In some cases, teachers focus more on questioning students than on actually teaching the material. Questions are asked even before concepts are properly explained. This not only discourages students from participating but also creates fear and anxiety in the classroom."
+                },
+                {
+                    "heading":"Lack of Classroom Management",
+                    "description":"Effective teaching is not just about knowledge; it is also about managing the classroom. When teachers fail to maintain a balanced and respectful environment, classes become stressful rather than productive. Some classrooms suffer from poor discipline control, while others feel overly authoritarian.",
+                    "description1":"Targeting individual students repeatedly during questioning can make students feel singled out and humiliated. On the other hand, completely ignoring students after that—whether they are present, absent, or struggling—shows a lack of responsibility and care."
+                },{
+                    "heading":"Communication Barriers",
+                    "description":"Communication plays a crucial role in teaching. When teachers speak too fast or fail to adjust their pace to students’ understanding levels, learning breaks down. Students may hear the words, but comprehension is lost. Over time, this creates a gap between teachers and students, where asking doubts feels pointless."
+                },{
+                    "heading":"Poor Teacher–Student Relationships",
+                    "description":"A healthy teacher–student relationship is built on respect, patience, and guidance. Unfortunately, in some environments, interactions are dominated by scolding rather than teaching. Excessive use of harsh or inappropriate language—even without physical punishment—creates a toxic atmosphere. Fear replaces curiosity, and silence replaces questions.",
+                    "description1":"An ego-driven approach to teaching, where authority is valued more than learning, damages trust. Knowledge should empower students, not be used as a tool to assert dominance."
+                },{
+                    "heading":"Institutional Neglect of Basic Facilities",
+                    "description":"Learning does not happen only inside classrooms. Basic facilities such as clean drinking water, proper seating areas, and spaces to eat are essential for students’ well-being. When these basic needs are ignored, students feel undervalued and exhausted, which directly affects their academic performance."
+                },{
+                    "heading":"Attendance Pressure Over Learning",
+                    "description":"In some colleges, attendance becomes a tool of control rather than a measure of participation. Threats of failure or academic punishment based solely on attendance create unnecessary stress. Even sincere and capable students can suffer in such environments, gradually losing motivation and confidence."
+                },{
+                    "heading":"The Long-Term Impact on Students",
+                    "description":"A poor academic environment does more than affect grades—it affects mental health, self-esteem, and interest in learning. Even good students can perform poorly when surrounded by constant pressure, fear, and negativity. Instead of nurturing potential, such environments slowly weaken it."
+                },{
+                    "heading":"Conclusion",
+                    "conclusion":"Education should be about growth, understanding, and mentorship. When teaching quality is low, communication is weak, and institutional support is lacking, students suffer—not because they are incapable, but because the system fails them. Improving education requires not just better curricula, but also better teaching practices, healthier environments, and a genuine respect for students as learners."
+                }
+            ],
+            "kn": [
+                {
+                    "description":"ಜೂನ್ 25, 2025 ರಂದು ಕಂಪ್ಯೂಟರ್ ಸೈನ್ಸ್ ಮತ್ತು ಎಂಜಿನಿಯರಿಂಗ್ (ಸಿಎಸ್ಇ) ವಿಭಾಗವು ಮೊದಲ ವರ್ಷದ ಹೊಸ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಅದ್ದೂರಿ ಫ್ರೆಶರ್ಸ್ ಪಾರ್ಟಿಯನ್ನು ಆಯೋಜಿಸಿತು. ಈ ಕಾರ್ಯಕ್ರಮವನ್ನು ಕಾಲೇಜಿನ ಸಭಾಂಗಣದಲ್ಲಿ ನೆರವೇರಿಸಲಾಯಿತು ಮತ್ತು ಇದರಲ್ಲಿ ಪ್ರಾಧ್ಯಾಪಕರು, ಹಿರಿಯ ವಿದ್ಯಾರ್ಥಿಗಳು ಹಾಗೂ ಹೊಸಬರು ಭಾಗವಹಿಸಿದರು."
+                },
+                {
+                    "description":"ಕಾರ್ಯಕ್ರಮವು ಸ್ವಾಗತ ಭಾಷಣದೊಂದಿಗೆ ಪ್ರಾರಂಭವಾಯಿತು. ನಂತರ ನೃತ್ಯ, ಹಾಡು, ನಾಟಕ ಮುಂತಾದ ಸಾಂಸ್ಕೃತಿಕ ಕಾರ್ಯಕ್ರಮಗಳು ಜರುಗಿದವು. ಹಿರಿಯ ವಿದ್ಯಾರ್ಥಿಗಳು ತಮ್ಮ ಪ್ರತಿಭೆಯನ್ನು ಪ್ರದರ್ಶಿಸಿ ಹೊಸಬರಿಗೆ ಆತ್ಮೀಯ ಸ್ವಾಗತ ನೀಡಿದರು."
+                },
+                {
+                    "description":"ಈ ಕಾರ್ಯಕ್ರಮದ ಪ್ರಮುಖ ಆಕರ್ಷಣೆಯಾದುದು \"Mr. ಮತ್ತು Ms. Fresher\" ಸ್ಪರ್ಧೆಯಾಗಿತ್ತು. ಈ ಸ್ಪರ್ಧೆಯಲ್ಲಿ ಹೊಸ ವಿದ್ಯಾರ್ಥಿಗಳು ತಮ್ಮ ಪ್ರತಿಭೆ, ಆತ್ಮವಿಶ್ವಾಸ ಹಾಗೂ ಸೃಜನಶೀಲತೆಯನ್ನು ತೋರಿಸಿದರು."
+                },
+                {
+                    "description":"ವಿಭಾಗದ ಉಪನ್ಯಾಸಕರು ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಪ್ರೇರಣಾದಾಯಕ ಭಾಷಣಗಳನ್ನು ನೀಡಿದರು ಮತ್ತು ಅವರ ಭವಿಷ್ಯದ ವಿದ್ಯಾಭ್ಯಾಸಕ್ಕೆ ಶುಭಾಶಯಗಳನ್ನು ತಿಳಿಸಿದರು. ಕೊನೆಗೆ refreshments ಹಾಗೂ ಗುಂಪು ಫೋಟೋಶೂಟ್ ನಡೆಸಲಾಯಿತು, ಇದು ಹೊಸಬರ ಕಾಲೇಜು ಜೀವನದ ಸುಂದರ ಆರಂಭವಾಯಿತು."
+                },
+                {
+                    "type" : "addOnImg",
+                    "src" : "/images/002/2.jpg",
+                    "alt" : "Veeresh sir giving gifts to students."
+                },
+                {
+                    "type" : "addOnImg",
+                    "src" : "/images/002/3.jpg",
+                    "alt" : "HOD mam giving gifts to students."
+                },
+                {
+                    "description":"ಈ ಕಾರ್ಯಕ್ರಮವು ಹಿರಿಯರು ಮತ್ತು ಹೊಸ ವಿದ್ಯಾರ್ಥಿಗಳ ನಡುವೆ ಸ್ನೇಹಪೂರ್ಣ ಬಾಂಧವ್ಯವನ್ನು ನಿರ್ಮಿಸಿತು. ಸಿಎಸ್ಇ ವಿಭಾಗದ ಹೊಸ ಅಧ್ಯಾಯಕ್ಕೆ ಇದು ಅದ್ಭುತ ಆರಂಭವಾಯಿತು."
+                }
+            ]
+        },
+        "aboutImg": {
+            "en": "Faculty members inaugurating the CSE Freshers’ Party by watering a plant in the college functional hall.",
+            "kn": "ಸಿಎಸ್ಇ ಫ್ರೆಶರ್ಸ್ ಪಾರ್ಟಿಗೆ ಶಿಕ್ಷಣವರು ಕಾಲೇಜಿನ ಫಂಕ್ಷನಲ್ ಹಾಲ್‌ನಲ್ಲಿ ಗಿಡಕ್ಕೆ ನೀರಿಹಾಕುವ ಮೂಲಕ ಆರಂಭಿಸಿದ ದೃಶ್ಯ."
+        }
+    }
+]
