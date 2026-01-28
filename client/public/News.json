@@ -43,5 +43,20 @@
             "en": "A reflection on how poor teaching and hostile college environments harm student learning.",
             "kn": "ದುರ್ಬಲ ಬೋಧನೆ ಮತ್ತು ವೈಮನಸ್ಯಪೂರ್ಣ ಕಾಲೇಜು ವಾತಾವರಣಗಳು ವಿದ್ಯಾರ್ಥಿಗಳ ಕಲಿಕೆಗೆ ಹೇಗೆ ಹಾನಿ ಮಾಡುತ್ತವೆ ಎಂಬ ಚಿಂತನೆ."
         }
+    },
+    {
+        "id": "004",
+        "thumbnail": "./images/004/004.jpg",
+        "category": "Education",
+        "date": "January 28, 2026",
+        "authorId": "huzaif",
+        "title": {
+            "en": "When Students Are Asked to Speak—But Not Heard",
+            "kn": "ಕಾಲೇಜು ಸುದ್ದಿಗಳಿಗೆ ಡಿಪ್ಲೊಮಾ ವಿದ್ಯಾರ್ಥಿಯಿಂದ ಹೊಸ ವೆಬ್‌ಸೈಟ್"
+        },
+        "description": {
+            "en": "A student’s perspective on learning environments where speaking up is encouraged—but not always welcomed.",
+            "kn": "ದುರ್ಬಲ ಬೋಧನೆ ಮತ್ತು ವೈಮನಸ್ಯಪೂರ್ಣ ಕಾಲೇಜು ವಾತಾವರಣಗಳು ವಿದ್ಯಾರ್ಥಿಗಳ ಕಲಿಕೆಗೆ ಹೇಗೆ ಹಾನಿ ಮಾಡುತ್ತವೆ ಎಂಬ ಚಿಂತನೆ."
+        }
     }
 ]

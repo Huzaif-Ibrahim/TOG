@@ -65,7 +65,7 @@ const NewsDetail = () => {
     return (
       <>
         <Navbar />
-        <section className={`px-4 pt-20 h-screen ${light ? 'bg-white' : 'bg-[#121212]'}`}>
+        <section className={`px-4 pt-20 min-h-screen ${light ? 'bg-white' : 'bg-[#121212]'}`}>
           <div className="flex justify-center items-center h-screen">
             <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-blue-500"></div>
           </div>
@@ -161,7 +161,27 @@ const NewsDetail = () => {
                       <p className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-medium text-[18px] lg:text-xl ${light ? 'text-gray-900' : 'text-white'}`}>{e.description}</p>
                       {
                         e.description1 && (
-                          <p className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-medium text-[18px] lg:text-xl mt-2 ${light ? 'text-gray-900' : 'text-white'}`}>{e.description1}</p>
+                          <p className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-medium text-[18px] lg:text-xl mt-2 lg:mt-3 ${light ? 'text-gray-900' : 'text-white'}`}>{e.description1}</p>
+                        )
+                      }
+                      {
+                        e.description2 && (
+                          <p className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-medium text-[18px] lg:text-xl mt-2 lg:mt-3 ${light ? 'text-gray-900' : 'text-white'}`}>{e.description2}</p>
+                        )
+                      }
+                      {
+                        e.description3 && (
+                          <p className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-medium text-[18px] lg:text-xl mt-2 lg:mt-3 ${light ? 'text-gray-900' : 'text-white'}`}>{e.description3}</p>
+                        )
+                      }
+                      {
+                        e.description4 && (
+                          <p className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-medium text-[18px] lg:text-xl mt-2 lg:mt-3 ${light ? 'text-gray-900' : 'text-white'}`}>{e.description4}</p>
+                        )
+                      }
+                      {
+                        e.description5 && (
+                          <p className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-medium text-[18px] lg:text-xl mt-2 lg:mt-3 ${light ? 'text-gray-900' : 'text-white'}`}>{e.description5}</p>
                         )
                       }
                     </div>
@@ -175,6 +195,35 @@ const NewsDetail = () => {
                         <div key={i}>
                           <h5 className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-semibold text-xl lg:text-2xl mb-2 mt-6 ${light ? 'text-black' : 'text-white'}`} >{e.heading}</h5>
                           <p className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-semibold text-[18px] lg:text-xl ${light ? 'text-gray-900' : 'text-white'}`} >{e.conclusion}</p>
+                          {
+                            e.points && (
+                              <ul
+                                key={i}
+                                className={`list-disc pl-6 mb-4 ${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-semibold text-[18px] lg:text-xl mt-2 ${light ? 'text-gray-900' : 'text-white'}`}
+                              >
+                                {e.points.map((point, idx) => (
+                                  <li key={idx} className="mb-1">
+                                    {point}
+                                  </li>
+                                ))}
+                              </ul>
+                            )
+                          }
+                          {
+                            e.description && (
+                              <p className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-semibold text-[18px] lg:text-xl mt-2 ${light ? 'text-gray-900' : 'text-white'}`}>{e.description}</p>
+                            )
+                          }
+                          {
+                            e.description1 && (
+                              <p className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-semibold text-[18px] lg:text-xl mt-2 ${light ? 'text-gray-900' : 'text-white'}`}>{e.description1}</p>
+                            )
+                          }
+                          {
+                            e.description2 && (
+                              <p className={`${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-semibold text-[18px] lg:text-xl mt-2 ${light ? 'text-gray-900' : 'text-white'}`}>{e.description2}</p>
+                            )
+                          }
                         </div>
                       )
                         : e.type === 'quote' ? (
@@ -189,6 +238,17 @@ const NewsDetail = () => {
                           <div className='w-full h-auto mb-6' key={i}>
                             <img src={e.src} alt={e.alt} className='h-full w-full' />
                           </div>
+                        ) : e.type === 'bulletPoints' ? (
+                          <ul
+                            key={i}
+                            className={`list-disc pl-6 mb-4 ${lan === 'en' ? 'serif-playfair' : 'kannada-font'} font-medium text-[18px] lg:text-xl ${light ? 'text-gray-900' : 'text-white'}`}
+                          >
+                            {e.points.map((point, idx) => (
+                              <li key={idx} className="mb-1">
+                                {point}
+                              </li>
+                            ))}
+                          </ul>
                         ) : null
                 })}
             </article>

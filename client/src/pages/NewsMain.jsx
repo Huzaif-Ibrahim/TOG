@@ -56,7 +56,7 @@ const NewsMain = () => {
     return (
       <>
         <Navbar />
-        <section className={`px-4 pt-20 h-screen ${light ? 'bg-white' : 'bg-[#121212]'}`}>
+        <section className={`px-4 pt-20 min-h-screen ${light ? 'bg-white' : 'bg-[#121212]'}`}>
           <div className="flex justify-center items-center h-screen">
             <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-blue-500"></div>
           </div>
