@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav className={`backdrop-blur-lg bg-transparent fixed top-0 left-0 right-0 border-b ${light ? 'border-b-neutral-200' : 'border-b-neutral-800'}`}>
       <div className="container max-w-7xl mx-auto py-4 px-4 lg:px-0">
         <div className="flex justify-between items-center">
-          <Link to={'/'} className={`serif-playfair text-xl md:text-2xl font-semibold ${light ? 'text-black' : 'text-white'}`} >TIMES OF GPT</Link>
+          <Link to={'/'} className={`serif-playfair text-xl md:text-2xl font-semibold ${light ? 'text-black' : 'text-white'}`} >STUDENT PRESS</Link>
 
           <div className='flex justify-center items-center gap-6'>
 
