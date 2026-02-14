@@ -1,0 +1,77 @@
+[
+    {
+        "id": "001",
+        "thumbnail": "/images/news001.jpg",
+        "category": "Student Initiatives",
+        "date": "June 24, 2025",
+        "authorId": "huzaif",
+        "title": {
+            "en": "CSE Student Launches All-in-One News Portal for College Updates",
+            "kn": "ಕಾಲೇಜು ಸುದ್ದಿಗಳಿಗೆ ಡಿಪ್ಲೊಮಾ ವಿದ್ಯಾರ್ಥಿಯಿಂದ ಹೊಸ ವೆಬ್‌ಸೈಟ್"
+        },
+        "description": {
+            "en": "A CSE student launches a website to share college news in English and Kannada.",
+            "kn": "ಕಾಲೇಜು ಸುದ್ದಿಗಾಗಿ ವಿದ್ಯಾರ್ಥಿಯೊಬ್ಬರು ಇಂಗ್ಲಿಷ್ ಮತ್ತು ಕನ್ನಡದಲ್ಲಿರುವ ವೆಬ್‌ಸೈಟ್ ಪ್ರಾರಂಭಿಸಿದ್ದಾರೆ."
+        }
+    },
+    {
+        "id": "002",
+        "thumbnail": "/images/002/1.jpg",
+        "category": "Event",
+        "date": "June 26, 2025",
+        "authorId": "huzaif",
+        "title": {
+            "en": " CSE Department Welcomes Freshers with a Grand Celebration",
+            "kn": "ಸಿಎಸ್ಇ ವಿಭಾಗದಲ್ಲಿ ಹೊಸಬರಿಗೆ ಅದ್ದೂರಿ ಸ್ವಾಗತ ಸಮಾರಂಭ"
+        },
+        "description": {
+            "en": " The CSE Department hosted a lively Freshers’ Party on June 25, 2025, to warmly welcome the new students.",
+            "kn": " ಜೂನ್ 25, 2025 ರಂದು ಸಿಎಸ್ಇ ವಿಭಾಗವು ಹೊಸ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಫ್ರೆಶರ್ಸ್ ಪಾರ್ಟಿ ಆಯೋಜಿಸಿತು."
+        }
+    },
+    {
+        "id": "003",
+        "thumbnail": "/images/003/1.jpg",
+        "category": "Education",
+        "date": "January 16, 2026",
+        "authorId": "huzaif",
+        "title": {
+            "en": "When Teaching Fails: How Poor Academic Environments Harm Students",
+            "kn": "ಕಾಲೇಜು ಸುದ್ದಿಗಳಿಗೆ ಡಿಪ್ಲೊಮಾ ವಿದ್ಯಾರ್ಥಿಯಿಂದ ಹೊಸ ವೆಬ್‌ಸೈಟ್"
+        },
+        "description": {
+            "en": "A reflection on how poor teaching and hostile college environments harm student learning.",
+            "kn": "ದುರ್ಬಲ ಬೋಧನೆ ಮತ್ತು ವೈಮನಸ್ಯಪೂರ್ಣ ಕಾಲೇಜು ವಾತಾವರಣಗಳು ವಿದ್ಯಾರ್ಥಿಗಳ ಕಲಿಕೆಗೆ ಹೇಗೆ ಹಾನಿ ಮಾಡುತ್ತವೆ ಎಂಬ ಚಿಂತನೆ."
+        }
+    },
+    {
+        "id": "004",
+        "thumbnail": "./images/004/004.jpg",
+        "category": "Education",
+        "date": "January 28, 2026",
+        "authorId": "huzaif",
+        "title": {
+            "en": "When Students Are Asked to Speak—But Not Heard",
+            "kn": "ವಿದ್ಯಾರ್ಥಿಗಳನ್ನು ಮಾತನಾಡಲು ಕೇಳಲಾಗುತ್ತದೆ—ಆದರೆ ಅವರ ಮಾತುಗಳನ್ನು ಕೇಳಲಾಗುವುದಿಲ್ಲ"
+        },
+        "description": {
+            "en": "A student’s perspective on learning environments where speaking up is encouraged—but not always welcomed.",
+            "kn": "ಮಾತನಾಡಲು ಪ್ರೋತ್ಸಾಹಿಸಲ್ಪಡುವ—but ಯಾವಾಗಲೂ ಸ್ವಾಗತಿಸಲ್ಪಡದ ಕಲಿಕಾ ವಾತಾವರಣದ ಕುರಿತು ವಿದ್ಯಾರ್ಥಿಯ ದೃಷ್ಟಿಕೋನ"
+        }
+    },
+    {
+        "id": "005",
+        "thumbnail": "https://i.pinimg.com/1200x/fc/69/77/fc697716d72b34d70e79cf4f8d59a400.jpg",
+        "category": "History",
+        "date": "February 14, 2026",
+        "authorId": "ayaz",
+        "title": {
+            "en": "The Real Freedom Fighters Who Built India",
+            "kn": "ಭಾರತವನ್ನು ನಿರ್ಮಿಸಿದ ನಿಜವಾದ ಸ್ವಾತಂತ್ರ್ಯ ಹೋರಾಟಗಾರರು"
+        },
+        "description": {
+            "en": "A reflection on the leaders who truly shaped India’s freedom and laid the foundation of modern India.",
+            "kn": "ಭಾರತದ ಸ್ವಾತಂತ್ರ್ಯವನ್ನು ರೂಪಿಸಿ ಆಧುನಿಕ ಭಾರತದ ಅಡಿಪಾಯ ಹಾಕಿದ ನಾಯಕರ ಕುರಿತು ಒಂದು ಚಿಂತನೆ"
+        }
+    }
+]

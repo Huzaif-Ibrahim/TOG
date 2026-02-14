@@ -1,0 +1,25 @@
+{
+    "huzaif": {
+        "img" : "/images/huzaif.jpg",
+        "en": {
+            "name": "Huzaif Ibrahim",
+            "about": "Huzaif Ibrahim is a self-learner and CSE student interested in social science. This site reflects his journey of learning and sharing ideas."
+        },
+        "kn": {
+            "name": "ಹುಜಾಫ್ ಇಬ್ರಾಹಿಂ",
+            "about": "ಹುಜೈಫ್ ಇಬ್ರಾಹಿಂ ಸ್ವಯಂ ಅಧ್ಯಯನ ಮಾಡುವ ಸಿಎಸ್‌ಇ ವಿದ್ಯಾರ್ಥಿ ಹಾಗೂ ಸಾಮಾಜಿಕ ವಿಜ್ಞಾನದಲ್ಲಿ ಆಸಕ್ತಿ ಹೊಂದಿರುವವರು. ಈ ತಾಣವು ಅವರ ಕಲಿಕೆ ಮತ್ತು ಆಲೋಚನೆಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳುವ ಪ್ರಯಾಣವನ್ನು ಪ್ರತಿಬಿಂಬಿಸುತ್ತದೆ."
+        },
+        "display": true
+    },
+    "ayaz": {
+        "en": {
+            "name": "Ayaz",
+            "about": "Ayaz is a CSE student and is interested in contributing articles to this website."
+        },
+        "kn": {
+            "name": "ಅಯಾಝ್",
+            "about": "ಅಯಾಝ್ ಒಬ್ಬ CSE ವಿದ್ಯಾರ್ಥಿಯಾಗಿದ್ದು, ಈ ವೆಬ್‌ಸೈಟ್‌ಗೆ ಲೇಖನಗಳನ್ನು ನೀಡುವಲ್ಲಿ ಆಸಕ್ತಿ ಹೊಂದಿದ್ದಾರೆ."
+        },
+        "display": false
+    }
+}
