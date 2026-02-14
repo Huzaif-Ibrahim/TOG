@@ -58,5 +58,20 @@
             "en": "A student’s perspective on learning environments where speaking up is encouraged—but not always welcomed.",
             "kn": "ಮಾತನಾಡಲು ಪ್ರೋತ್ಸಾಹಿಸಲ್ಪಡುವ—but ಯಾವಾಗಲೂ ಸ್ವಾಗತಿಸಲ್ಪಡದ ಕಲಿಕಾ ವಾತಾವರಣದ ಕುರಿತು ವಿದ್ಯಾರ್ಥಿಯ ದೃಷ್ಟಿಕೋನ"
         }
+    },
+    {
+        "id": "005",
+        "thumbnail": "https://i.pinimg.com/1200x/fc/69/77/fc697716d72b34d70e79cf4f8d59a400.jpg",
+        "category": "History",
+        "date": "February 14, 2026",
+        "authorId": "ayaz",
+        "title": {
+            "en": "The Real Freedom Fighters Who Built India",
+            "kn": "ಭಾರತವನ್ನು ನಿರ್ಮಿಸಿದ ನಿಜವಾದ ಸ್ವಾತಂತ್ರ್ಯ ಹೋರಾಟಗಾರರು"
+        },
+        "description": {
+            "en": "A reflection on the leaders who truly shaped India’s freedom and laid the foundation of modern India.",
+            "kn": "ಭಾರತದ ಸ್ವಾತಂತ್ರ್ಯವನ್ನು ರೂಪಿಸಿ ಆಧುನಿಕ ಭಾರತದ ಅಡಿಪಾಯ ಹಾಕಿದ ನಾಯಕರ ಕುರಿತು ಒಂದು ಚಿಂತನೆ"
+        }
     }
 ]

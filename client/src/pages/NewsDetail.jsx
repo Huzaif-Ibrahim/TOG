@@ -253,13 +253,13 @@ const NewsDetail = () => {
                 })}
             </article>
 
-            <div className="about-user flex justify-center items-center gap-2 pl-2 border-l-4 border-l-blue-900 mt-4">
+            <div className="about-user flex justify-start items-center gap-2 pl-2 border-l-4 border-l-blue-900 mt-4">
               <img
                 src={newsItem.author?.img || '/images/defaultUserIcon.jpg'}
                 alt={`${newsItem.author?.[lan]?.name || 'Author'}'s Img`}
                 className='h-20 w-20 rounded-full' />
 
-              <p className={`${light ? 'text-gray-700' : 'text-gray-300'} text-sm font-light italic`}>{newsItem.author?.[lan]?.about || ''}</p>
+              <p className={`${light ? 'text-gray-700' : 'text-gray-300'} text-sm font-light italic max-w-xs`}>{newsItem.author?.[lan]?.about || ''}</p>
             </div>
 
 
