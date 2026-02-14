@@ -1,4 +1,4 @@
-# TOG – Times of GPT
+# Student Press
 
 **Huzaif Ibrahim** – Self-learner and CSE student with an interest in social science.  
 This project is part of his learning journey to simplify knowledge, connect ideas, and share value with curious minds.
@@ -7,33 +7,40 @@ This project is part of his learning journey to simplify knowledge, connect idea
 
 ## Project Overview
 
-TOG is a platform for sharing knowledge and News. The project aims to provide:
+**Student Press** is a platform for sharing knowledge and news with a focus on clarity, learning, and thoughtful discussion.  
+The project aims to provide:
 
-- Well-structured articles for easy learning  
+- Well-structured articles for easy understanding  
 - Multilingual support (English & Kannada)  
 - Interactive and responsive frontend using React and TailwindCSS  
-- A clean and organized codebase for further expansion
+- A clean and scalable codebase for future expansion  
 
 ---
 
 ## Features (Frontend)
 
-- Interactive social science articles  
-- Clean UI with React + TailwindCSS  
+- Insightful social science and education-based articles  
+- Clean UI built with React + TailwindCSS  
 - Responsive design for all screen sizes  
 - Dynamic content rendering via JSON  
-- Support for English and Kannada languages
+- English and Kannada language support  
 
 ---
 
 ## Backend (In Progress)
 
-- The `server` folder exists, backend APIs are under development  
-- Planned features:
-  - Fetch articles dynamically  
-  - User authentication  
-  - Commenting and discussion system  
+- The `server` folder exists; backend APIs are currently under development  
 
-> Currently, the deployment only uses the frontend (`/client` folder). Backend integration will be added later.
+### Planned features:
+- Dynamic article fetching from database  
+- User authentication system  
+- Commenting and discussion features  
+- Admin panel for content management  
+
+> Currently, the live deployment uses only the frontend (`/client` folder). Backend integration will be added in future updates.
 
 ---
+
+## Vision
+
+Student Press aims to grow as a modern student-driven knowledge platform focused on meaningful content, clear explanations, and continuous learning.
