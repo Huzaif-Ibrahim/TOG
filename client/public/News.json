@@ -43,5 +43,20 @@
             "en": "A reflection on the leaders who truly shaped India’s freedom and laid the foundation of modern India.",
             "kn": "ಭಾರತದ ಸ್ವಾತಂತ್ರ್ಯವನ್ನು ರೂಪಿಸಿ ಆಧುನಿಕ ಭಾರತದ ಅಡಿಪಾಯ ಹಾಕಿದ ನಾಯಕರ ಕುರಿತು ಒಂದು ಚಿಂತನೆ"
         }
+    },
+    {
+        "id": "006",
+        "thumbnail": "https://i.pinimg.com/1200x/44/b1/a2/44b1a2fcc4bbe9a01709a1a93d42c94f.jpg",
+        "category": "Education",
+        "date": "February 15, 2026",
+        "authorId": "huzaif",
+        "title": {
+            "en": "Why Some Teachers Think They Are Superior — But They Aren’t",
+            "kn": "ಕೆಲವರು ಗುರುಗಳು ತಮ್ಮನ್ನು ಶ್ರೇಷ್ಠರೆಂದು ಯಾಕೆ ಭಾವಿಸುತ್ತಾರೆ — ಆದರೆ ಅವರು ಹಾಗಲ್ಲ"
+        },
+        "description": {
+            "en": "A bold opinion on ego in education, student rights, and why true teaching is about guidance, not superiority.",
+            "kn": "ಶಿಕ್ಷಣದಲ್ಲಿ ಅಹಂಕಾರ, ವಿದ್ಯಾರ್ಥಿಗಳ ಹಕ್ಕುಗಳು ಮತ್ತು ನಿಜವಾದ ಬೋಧನೆ ಶ್ರೇಷ್ಠತೆಯಲ್ಲ ಮಾರ್ಗದರ್ಶನದಲ್ಲಿದೆ ಎಂಬುದರ ಕುರಿತು ಧೈರ್ಯವಾದ ಅಭಿಪ್ರಾಯ."
+        }
     }
 ]
